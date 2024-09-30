@@ -15,6 +15,8 @@ st.subheader("Explore os tópicos de programação em C++")
 
 
 
+
+
 # Footer implementation
 footer = """
 <style>
