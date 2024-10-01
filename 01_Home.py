@@ -15,6 +15,9 @@ st.header("Linguagem C++")
 st.subheader("Explore os tópicos de programação em C++")
 
 
+cpp="images/cpp-logo.svg"
+st.image(cpp, caption= 'Linguagem C++')
+
 
 
 # Footer implementation
