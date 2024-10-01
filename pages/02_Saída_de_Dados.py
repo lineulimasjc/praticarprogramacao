@@ -11,16 +11,22 @@ st.set_page_config(
 
 st.title("Saída de Dados")
 
-st.write(":white_medium_square: 2.1 Comando cout")
-st.write(":white_medium_square: 2.2 Pulando Linha")
-st.write(":white_medium_square: 2.3 Operadores Arirméticos")
+
+t1, t2, t3 = st.tabs(["Comando ```cout```", "Pulando Linha", "Operadores Arirméticos"])
 
 
 
-st.header(':arrow_forward: 2.1 Comando `cout`')
+
+# st.write(":white_medium_square: 2.1 Comando cout")
+# st.write(":white_medium_square: 2.2 Pulando Linha")
+# st.write(":white_medium_square: 2.3 Operadores Arirméticos")
+
+
+
+# t1.header(':arrow_forward: 2.1 Comando `cout`')
 # st.header('Comando `cout`')
 
-st.divider()
+# t1.divider()
 
 # st.header('My header')
 # st.subheader('My sub')
@@ -29,9 +35,9 @@ st.divider()
 
 # inline code `code`
 
-st.write('O `cout` é um comando de saída de dados, usado para imprimir mensagens na tela. Veja alguns exemplos a seguir.')
+t1.write('O `cout` é um comando de saída de dados, usado para imprimir mensagens na tela. Veja alguns exemplos a seguir.')
 
-st.subheader('Exemplo 1')
+t1.subheader('Exemplo 1')
 
 
 code = '''
@@ -44,22 +50,25 @@ int main()
     cout << "Idade: " << 21 << endl;
 }
 '''
-st.code(code, language="cpp")
+t1.code(code, language="cpp")
 
-st.write('Saída:')
+t1.write('Saída:')
 
 
-
-st.text('''
+t1.text('''
 Nome: Julia
 Idade: 21
 ''')
 
 
-st.divider()
 
 
-st.subheader('Exemplo 2')
+t1.divider()
+
+
+
+
+t1.subheader('Exemplo 2')
 
 
 code = '''
@@ -73,13 +82,13 @@ int main()
   cout << "3. Sair" << endl;
 }
 '''
-st.code(code, language="cpp")
+t1.code(code, language="cpp")
 
-st.write('Saída:')
+t1.write('Saída:')
 
 
 
-st.text('''
+t1.text('''
 1. Saldo
 2. Extrato
 3. Sair
@@ -90,28 +99,28 @@ st.text('''
 
 
 
-st.write("###")
+# st.write("###")
 
 
 # ----- Pulando Linha -----
 
-st.header(':arrow_forward: 2.2 Pulando Linha')
+# t2.header(':arrow_forward: 2.2 Pulando Linha')
 
-st.divider()
+# t2.divider()
 
-st.write('Existem 2 formas de pular linha na linguagem C++:')
+t2.write('Existem 2 formas de pular linha na linguagem C++:')
 
-st.write(':white_medium_square: `endl`')
-st.write(':white_medium_square: `\\n`')
-
-
-
-st.write('Veja exemplos a seguir:')
-
-st.header('Exemplo 1: endl')
+t2.write(':white_medium_square: `endl`')
+t2.write(':white_medium_square: `\\n`')
 
 
-st.write('Código')
+
+t2.write('Veja exemplos a seguir:')
+
+
+t2.header('Exemplo 1: ```endl```')
+
+t2.write('Código')
 
 
 code = '''
@@ -125,15 +134,46 @@ int main()
     cout << "Pulando linha";
 }
 '''
-st.code(code, language="cpp")
+t2.code(code, language="cpp")
 
-st.write('Saída:')
-
-
+t2.write('Saída:')
 
 
 
-st.text('''
+
+
+t2.text('''
+Pulando linha
+Pulando linha
+''')
+
+
+
+t2.header('Exemplo 2: ```\\n```')
+
+t2.write('Código')
+
+
+code = '''
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "Pulando linha\\n";
+  
+  cout << "Pulando linha";
+}
+'''
+t2.code(code, language="cpp")
+
+t2.write('Saída:')
+
+
+
+
+t2.text('''
 Pulando linha
 Pulando linha
 ''')
@@ -147,37 +187,47 @@ Pulando linha
 
 
 
-st.write("###")
+
+# t2.write("###")
 
 
 # ----- Operadores Aritméticos -----
 
-st.header(":arrow_forward: 2.3 Operadores Aritméticos")
+# t3.header(":arrow_forward: 2.3 Operadores Aritméticos")
 
-st.divider()
-
-
-st.write("Os operadores aritméticos são fundamentais para a realização de cálculos matemáticos básicos dentro do código. Estes operadores permitem realizar operações como adição, subtração, multiplicação, divisão e obtenção do resto de uma divisão entre variáveis ou valores. Aqui está uma breve explicação dos principais operadores aritméticos em C++:")
+# t3.divider()
 
 
+t3.write("Os operadores aritméticos são fundamentais para a realização de cálculos matemáticos básicos dentro do código. Estes operadores permitem realizar operações como adição, subtração, multiplicação, divisão e obtenção do resto de uma divisão entre variáveis ou valores. Aqui está uma breve explicação dos principais operadores aritméticos em C++:")
 
 
 
-df = pd.DataFrame({
-  'Descrição': ['Adição', 'Subtração', 'Multiplicação', 'Divisão', 'Módulo'],
-  'Operador': ['+', '-', '*', '/', '%'],
-  'Exemplo': ['3 + 2', '5 - 3', '3 * 3', '10 / 2', '10 % 7'],
-  'Resultado': ['5', '2', '9', '5', '3']
-})
-
-df
 
 
+# t3.df = pd.DataFrame({
+#   'Descrição': ['Adição', 'Subtração', 'Multiplicação', 'Divisão', 'Módulo'],
+#   'Operador': ['+', '-', '*', '/', '%'],
+#   'Exemplo': ['3 + 2', '5 - 3', '3 * 3', '10 / 2', '10 % 7'],
+#   'Resultado': ['5', '2', '9', '5', '3']
+# })
 
-st.header("Exemplo de Adição (+)")
+# t3.df
+
+t3.markdown("""
+| Descrição  | Operador | Exemplo | Resultado |
+| :------------ | :--------------- | :---------------| :---------------|
+| Adição | + | 3 + 2 | 5 |
+| Subtração | - | 5 - 3 | 2 |
+| Multiplicação | * | 3 * 3 | 9 |
+| Divisão | / | 10 / 2 | 5 |
+| Módulo | % | 10 % 7 | 3 |
+""")
 
 
-st.write("Código")
+t3.header("Exemplo de Adição (+)")
+
+
+t3.write("Código")
 
 
 code = '''
@@ -189,13 +239,13 @@ int main()
   cout << "5 + 3 = " << 5 + 3 << endl;
 }
 '''
-st.code(code, language="cpp")
+t3.code(code, language="cpp")
 
-st.write('Saída:')
+t3.write('Saída:')
 
 
 
-st.text('''
+t3.text('''
 5 + 3 = 8
 ''')
 
@@ -206,10 +256,10 @@ st.text('''
 
 
 
-st.header("Exemplo de Subtração (-)")
+t3.header("Exemplo de Subtração (-)")
 
 
-st.write("Código")
+t3.write("Código")
 
 
 code = '''
@@ -221,13 +271,13 @@ int main()
   cout << "8 - 2 = " << 8 - 2 << endl;
 }
 '''
-st.code(code, language="cpp")
+t3.code(code, language="cpp")
 
-st.write('Saída:')
+t3.write('Saída:')
 
 
 
-st.text('''
+t3.text('''
 8 – 2 = 6
 ''')
 
@@ -240,10 +290,10 @@ st.text('''
 
 
 
-st.header("Exemplo de Multiplicação (*)")
+t3.header("Exemplo de Multiplicação (*)")
 
 
-st.write("Código")
+t3.write("Código")
 
 
 code = '''
@@ -255,13 +305,13 @@ int main()
   cout << "8 * 4 = " << 8 * 4 << endl;
 }
 '''
-st.code(code, language="cpp")
+t3.code(code, language="cpp")
 
-st.write('Saída:')
+t3.write('Saída:')
 
 
 
-st.text('''
+t3.text('''
 8 * 4 = 32
 ''')
 
@@ -269,10 +319,10 @@ st.text('''
 
 
 
-st.header("Exemplo de Divisão (/)")
+t3.header("Exemplo de Divisão (/)")
 
 
-st.write("Código")
+t3.write("Código")
 
 
 code = '''
@@ -284,13 +334,13 @@ int main()
   cout << "15.6 / 3 = " << 15.6 / 3 << endl;
 }
 '''
-st.code(code, language="cpp")
+t3.code(code, language="cpp")
 
-st.write('Saída:')
+t3.write('Saída:')
 
 
 
-st.text('''
+t3.text('''
 15.6 / 3 = 5.2
 ''')
 
@@ -302,10 +352,9 @@ st.text('''
 
 
 
-st.header("Exemplo de Módulo (%)")
+t3.header("Exemplo de Módulo (%)")
 
-
-st.write("Código")
+t3.write("Código")
 
 
 code = '''
@@ -319,13 +368,13 @@ int main()
   cout << 15 % 7 << " dia(s)." << endl;
 }
 '''
-st.code(code, language="cpp")
+t3.code(code, language="cpp")
 
-st.write('Saída:')
+t3.write('Saída:')
 
 
 
-st.text('''
+t3.text('''
 2 semana(s) e 1 dia(s).
 ''')
 
