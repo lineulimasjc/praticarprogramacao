@@ -2,6 +2,13 @@
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="Matriz",
+    page_icon="images/logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
+
 st.title("O que são Matrizes?")
 
 st.write("**Matriz** é uma estrutura de dados que armazena uma determinada quantidade de elementos do mesmo tipo de dado.")

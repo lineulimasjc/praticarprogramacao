@@ -2,6 +2,13 @@
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="Entrada de Dados",
+    page_icon="images/logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
+
 
 st.title("Entrada de Dados – ```cin```")
 

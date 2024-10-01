@@ -2,10 +2,12 @@
 import streamlit as st
 import pandas as pd
 
-# st.markdown("# Page 2 ❄️")
-# st.sidebar.markdown("# Page 2 ❄️")
-
-# st.set_page_config(page_title = "Saída de Dados", page_icon = " :dvd: ", layout = "wide")
+st.set_page_config(
+    page_title="Saída de Dados",
+    page_icon="images/logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
 
 st.title("Saída de Dados")
 
