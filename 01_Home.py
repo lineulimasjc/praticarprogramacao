@@ -1,10 +1,12 @@
 # Home
 import streamlit as st
 
-# st.markdown(":page_facing_up: # Home")
-# st.sidebar.markdown("# Home")
-
-# st.set_page_config(page_title = "Document Chat", page_icon = " :dvd: ", layout = "wide")
+st.set_page_config(
+    page_title=":house: Home",
+    page_icon="images\logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
 
 st.title(':house: Home')
 

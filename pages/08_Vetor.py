@@ -2,6 +2,12 @@
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="Vetor",
+    page_icon="images\logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
 
 
 

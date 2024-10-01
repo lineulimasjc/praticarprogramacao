@@ -2,6 +2,13 @@
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="Registro",
+    page_icon="images\logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
+
 st.title("Registro")
 
 st.subheader("1. O que é um Registro?")

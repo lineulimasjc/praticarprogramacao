@@ -2,6 +2,13 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Saída de Dados",
+    page_icon="images\logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
+
 # st.markdown("# Page 2 ❄️")
 # st.sidebar.markdown("# Page 2 ❄️")
 
@@ -45,7 +52,6 @@ int main()
 st.code(code, language="cpp")
 
 st.write('Saída:')
-
 
 
 st.text('''

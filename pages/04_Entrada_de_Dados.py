@@ -2,6 +2,13 @@
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="Entrada de Dados",
+    page_icon="images\logo.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
+
 
 st.title("Entrada de Dados – ```cin```")
 
@@ -115,7 +122,6 @@ int main()
 st.code(code, language="cpp")
 
 st.write('Saída:')
-
 
 st.text('''
 Informe 2 valores separados por um espaço: 3 7
