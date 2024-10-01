@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-st.title("Entrada de Dados – ```cin```")
+st.title("Entrada de Dados")
 
 t1, t2 = st.tabs(["```cin```", "```getline```"])
 
