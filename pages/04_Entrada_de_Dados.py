@@ -9,10 +9,10 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
+st.title("Entrada de Dados – ```cin```")
 
 t1, t2 = st.tabs(["```cin```", "```getline```"])
 
-st.title("Entrada de Dados – ```cin```")
 
 t1.write("O comando cin controla a entrada de dados, permitindo ao usuário da aplicação entrar com dados via teclado.")
 
