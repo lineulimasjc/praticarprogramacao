@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title=":house: Home",
-    page_icon="/workspaces/praticarprogramacao/images/logo.png",
+    page_icon="images/logo.png",
     layout="centered",
     initial_sidebar_state="auto",
 )
@@ -15,7 +15,7 @@ st.header("Linguagem C++")
 st.subheader("Explore os tópicos de programação em C++")
 
 # Testing
-logo="https://raw.github.com/lineulimasjc/praticarprogramacao/blob/main/images/logo.png"
+logo="images/logo.png"
 st.image(logo, caption= 'logo', width=350)
 
 
