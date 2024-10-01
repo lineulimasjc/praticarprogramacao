@@ -10,24 +10,26 @@ st.set_page_config(
 )
 
 
-st.title("Entrada de Dados – ```cin```")
+t1, t2 = st.tabs(["```cin```", "```getline```"])
 
-st.write("O comando cin controla a entrada de dados, permitindo ao usuário da aplicação entrar com dados via teclado.")
+# t1.title("Entrada de Dados – ```cin```")
 
-st.write("A letra “c” de cin significa caractere e “in” significa input *(entrada em português)*.")
+t1.write("O comando cin controla a entrada de dados, permitindo ao usuário da aplicação entrar com dados via teclado.")
 
-st.write("Sintaxe: ```cin >> variável;```")
+t1.write("A letra “c” de cin significa caractere e “in” significa input *(entrada em português)*.")
 
-st.write("Existem várias formas de entrar com dados usando o comando ```cin```. A melhor forma dependerá da solução desejada para a sua aplicação.")
+t1.write("Sintaxe: ```cin >> variável;```")
+
+t1.write("Existem várias formas de entrar com dados usando o comando ```cin```. A melhor forma dependerá da solução desejada para a sua aplicação.")
 
 
 
 
-st.subheader('Exemplo 1')
+t1.subheader('Exemplo 1')
 
-st.write("**Entrando com dados.**")
+t1.write("**Entrando com dados.**")
 
-st.write("Código")
+t1.write("Código")
 
 code = '''
 #include <iostream>
@@ -43,26 +45,26 @@ int main()
   cout << "Altura: " << Altura << endl;
 }
 '''
-st.code(code, language="cpp")
+t1.code(code, language="cpp")
 
-st.write('Saída:')
+t1.write('Saída:')
 
 
-st.text('''
+t1.text('''
 Informe a altura: 1.81
 Altura: 1.81
 ''')
 
 
+t1.divider()
 
 
 
+t1.subheader('Exemplo 2')
 
-st.subheader('Exemplo 2')
+t1.write("**Entrando com dados em linhas separadas.**")
 
-st.write("**Entrando com dados em linhas separadas.**")
-
-st.write("Código")
+t1.write("Código")
 
 code = '''
 #include <iostream>
@@ -82,27 +84,27 @@ int main()
   cout << "Soma = " << Num2 + Num1 << endl;
 }
 '''
-st.code(code, language="cpp")
+t1.code(code, language="cpp")
 
-st.write('Saída:')
+t1.write('Saída:')
 
 
-st.text('''
+t1.text('''
 Valor 1: 3
 Valor 2: 7
 Soma = 10
 ''')
 
 
+t1.divider()
 
 
 
+t1.subheader('Exemplo 3')
 
-st.subheader('Exemplo 3')
+t1.write("**Entrando com dados na mesma linha.**")
 
-st.write("**Entrando com dados na mesma linha.**")
-
-st.write("Código")
+t1.write("Código")
 
 code = '''
 #include <iostream>
@@ -119,22 +121,37 @@ int main()
   cout << "Soma = " << Num2 + Num1 << endl;
 }
 '''
-st.code(code, language="cpp")
+t1.code(code, language="cpp")
 
-st.write('Saída:')
+t1.write('Saída:')
 
-
-st.text('''
+t1.text('''
 Informe 2 valores separados por um espaço: 3 7
 Soma = 10
 ''')
 
-st.divider()
 
 
-st.subheader('Exemplo')
 
-st.write("Código")
+
+
+
+# t2.title("Entrada de Dados – ```getline```")
+
+
+t2.write("O comando ```getline``` permite a entrada de texto contendo o caractere “espaço em branco“.")
+
+t2.info(":grey_exclamation: O comando ```getline``` pertence a biblioteca ```<string>```.")
+
+t2.write("Sintaxe: ```getline(cin, variável);```")
+
+
+
+
+
+t2.subheader('Exemplo')
+
+t2.write("Código")
 
 code = '''
 #include <iostream>
@@ -151,28 +168,18 @@ int main()
   cout << "Bom jogo " << Nome << "!" << endl;
 }
 '''
-st.code(code, language="cpp")
+t2.code(code, language="cpp")
 
-st.write('Saída:')
+t2.write('Saída:')
 
 
-st.text('''
+t2.text('''
 Nome completo: Pedro Silva
 Bom jogo Pedro Silva!
 ''')
 
 
 
-
-
-st.title("Entrada de Dados – ```getline```")
-
-
-st.write("O comando ```getline``` permite a entrada de texto contendo o caractere “espaço em branco“.")
-
-st.info(":grey_exclamation: O comando ```getline``` pertence a biblioteca ```<string>```.")
-
-st.write("Sintaxe: ```getline(cin, variável);```")
 
 
 
@@ -213,4 +220,3 @@ footer = """
 </div>
 """
 st.markdown(footer, unsafe_allow_html=True)
-
