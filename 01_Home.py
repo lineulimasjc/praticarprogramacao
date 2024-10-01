@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title=":house: Home",
-    page_icon="https://raw.github.com/lineulimasjc/praticarprogramacao/blob/main/images/logo.png",
+    page_icon="/workspaces/praticarprogramacao/images/logo.png",
     layout="centered",
     initial_sidebar_state="auto",
 )
