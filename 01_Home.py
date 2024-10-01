@@ -14,9 +14,6 @@ st.header("Linguagem C++")
 
 st.subheader("Explore os tópicos de programação em C++")
 
-# Testing
-logo="images/logo.png"
-st.image(logo, caption= 'logo', width=350)
 
 
 
