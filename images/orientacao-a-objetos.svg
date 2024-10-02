@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 512 192">
+  <defs>
+    <style>.cls-1{fill:#e0f2fd;stroke:#71c7ff;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:0.5px;}.cls-2{fill:#c9f2e6;stroke:#94d6c0;}.cls-3{fill:none;stroke:#444;}.cls-4,.cls-5,.cls-8{fill:#444;}.cls-5,.cls-8{font-size:18px;font-family:SourceSansPro-Regular, Source Sans Pro;}.cls-5{letter-spacing:-0.01em;}.cls-6{letter-spacing:-0.02em;}.cls-7,.cls-8{letter-spacing:-0.01em;}.cls-9{letter-spacing:-0.02em;}</style>
+  </defs>
+  <rect class="cls-1" x="25.91" y="121.23" width="107.1" height="51.2"></rect>
+  <rect class="cls-1" x="202.45" y="121.23" width="107.1" height="51.2"></rect>
+  <rect class="cls-2" x="202.45" y="19.57" width="107.1" height="51.2"></rect>
+  <rect class="cls-1" x="378.99" y="121.23" width="107.1" height="51.2"></rect>
+  <line class="cls-3" x1="256" y1="74.35" x2="256" y2="121.23"></line>
+  <polygon class="cls-4" points="253.51 75.08 256 70.77 258.49 75.08 253.51 75.08"></polygon>
+  <polyline class="cls-3" points="79.46 121.23 79.46 96 432.54 96 432.54 121.23"></polyline>
+  <text class="cls-5" transform="translate(62.06 151.68)">G<tspan class="cls-6" x="10.93" y="0">at</tspan><tspan class="cls-7" x="25.22" y="0">o</tspan></text>
+  <text class="cls-5" transform="translate(230.22 50.01)">Animal</text>
+  <text class="cls-8" transform="translate(229.99 151.68)">Coelho</text>
+  <text class="cls-8" transform="translate(398.68 151.68)">Cachor<tspan class="cls-9" x="52.27" y="0">r</tspan><tspan x="58.16" y="0">o</tspan></text>
+</svg>

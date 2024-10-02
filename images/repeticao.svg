@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 192 288">
+  <defs>
+    <style>.cls-1{fill:#ffe8bf;stroke:#f9cb98;}.cls-1,.cls-11,.cls-14,.cls-6,.cls-9{stroke-miterlimit:10;}.cls-1,.cls-11,.cls-14,.cls-9{stroke-width:0.5px;}.cls-12,.cls-2,.cls-7,.cls-8{font-size:18px;}.cls-12,.cls-2{fill:#444;font-family:SourceSansPro-Regular, Source Sans Pro;}.cls-13,.cls-2{letter-spacing:-0.01em;}.cls-3{letter-spacing:-0.03em;}.cls-4{letter-spacing:-0.02em;}.cls-12,.cls-5{letter-spacing:-0.01em;}.cls-6{fill:#fff;stroke:#444;stroke-width:0.25px;}.cls-7{fill:#00a651;}.cls-7,.cls-8{font-family:OpenSans-Regular, Open Sans;}.cls-8{fill:#ed1c24;}.cls-14,.cls-9{fill:none;stroke:#656666;}.cls-10{fill:#656666;}.cls-11{fill:#e0f2fd;stroke:#b7e3f9;}.cls-14{stroke-linecap:square;}</style>
+  </defs>
+  <rect class="cls-1" x="33.78" y="87.62" width="107.54" height="44.33"></rect>
+  <text class="cls-2" transform="translate(52.99 114.63)">In<tspan class="cls-3" x="14.22" y="0">s</tspan><tspan x="21.22" y="0">tru</tspan><tspan class="cls-4" x="42.8" y="0">ç</tspan><tspan class="cls-5" x="50.65" y="0">ão</tspan></text>
+  <circle class="cls-6" cx="87.55" cy="41.91" r="14.43"></circle>
+  <circle class="cls-6" cx="87.55" cy="251.31" r="14.43"></circle>
+  <text class="cls-7" transform="translate(152.38 178.27)">V</text>
+  <text class="cls-8" transform="translate(90.38 225.72)">F</text>
+  <line class="cls-9" x1="87.55" y1="56.34" x2="87.55" y2="84.03"></line>
+  <polygon class="cls-10" points="85.06 83.3 87.55 87.62 90.04 83.3 85.06 83.3"></polygon>
+  <line class="cls-9" x1="87.55" y1="131.95" x2="87.55" y2="148.91"></line>
+  <polygon class="cls-10" points="85.06 148.18 87.55 152.5 90.04 148.18 85.06 148.18"></polygon>
+  <polygon class="cls-11" points="144.57 181.16 87.55 209.82 30.53 181.16 87.55 152.5 144.57 181.16"></polygon>
+  <text class="cls-12" transform="translate(52.69 186)">Condi<tspan class="cls-4" x="43.4" y="0">ç</tspan><tspan class="cls-13" x="51.25" y="0">ão</tspan></text>
+  <line class="cls-14" x1="144.57" y1="181.16" x2="176.5" y2="181.16"></line>
+  <line class="cls-14" x1="91.14" y1="66.9" x2="176.5" y2="66.9"></line>
+  <polygon class="cls-10" points="91.87 69.39 87.55 66.89 91.87 64.4 91.87 69.39"></polygon>
+  <line class="cls-9" x1="176.5" y1="181.16" x2="176.5" y2="66.9"></line>
+  <line class="cls-9" x1="87.55" y1="209.82" x2="87.55" y2="233.29"></line>
+  <polygon class="cls-10" points="85.06 232.56 87.55 236.88 90.04 232.56 85.06 232.56"></polygon>
+</svg>
