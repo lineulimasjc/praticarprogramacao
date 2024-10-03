@@ -125,7 +125,13 @@ int main()
 '''
 st.code(code, language="cpp")
 
+st.write('Saída:')
 
+st.text('''
+Nome: Maria
+Idade: 28
+Altura = 1.72
+''')
 
 
 
