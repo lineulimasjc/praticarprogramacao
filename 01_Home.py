@@ -16,7 +16,7 @@ st.subheader("Explore os tópicos de programação em C++")
 
 
 cpp="images/cpp-logo.svg"
-st.image(cpp, caption= 'Linguagem C++', width=350)
+st.image(cpp, caption= 'Linguagem C++', width=250)
 
 
 
