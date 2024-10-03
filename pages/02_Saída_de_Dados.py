@@ -214,13 +214,13 @@ t3.write("Os operadores aritméticos são fundamentais para a realização de c�
 # t3.df
 
 t3.markdown("""
-| Descrição  | Operador | Exemplo | Resultado |
-| :------------ | :--------------- | :---------------| :---------------|
-| Adição | + | 3 + 2 | 5 |
-| Subtração | - | 5 - 3 | 2 |
-| Multiplicação | * | 3 * 3 | 9 |
-| Divisão | / | 10 / 2 | 5 |
-| Módulo | % | 10 % 7 | 3 |
+| Descrição     | Operador | Exemplo | Resultado |
+| ------------- | -------- | ------- | --------- |
+| Adição        |     +    |  3 + 2  |     5     |
+| Subtração     |     -    |  5 - 3  |     2     |
+| Multiplicação |     *    |  3 * 3  |     9     |
+| Divisão       |     /    |  10 / 2 |     5     |
+| Módulo        |     %    |  10 % 7 |     3     |
 """)
 
 
