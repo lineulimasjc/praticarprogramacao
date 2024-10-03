@@ -16,7 +16,7 @@ st.write("**Matriz** é uma estrutura de dados que armazena uma determinada quan
 st.write("O **acesso** aos elementos de uma matriz é feito através dos índices (linhas e colunas).")
 
 mat="images/matrix.svg"
-st.image(mat, caption= 'Matriz', width=200)
+st.image(mat, caption= 'Matriz', width=350)
 
 st.write("Sintaxe:")
 
