@@ -19,17 +19,20 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.header("Sequência")
     st.write("As instruções são executas de forma sequencial.")
-    st.image("images/sequencia.svg")
+    seq="images/sequencia.svg"
+    st.image(seq, caption= 'Sequência', width=200)
     
 with col2:
     st.header("Seleção")
     st.write("As instruções são executadas com base em uma ou mais condições.")
-    st.image("images/selecao.svg")
+    sel="images/selecao.svg"
+    st.image(sel, caption= 'Seleção', width=200)
 
 with col3:
     st.header("Repetição")
     st.write("As instruções são executadas enquanto a condição for satisfeita.")
-    st.image("images/repeticao.svg")
+    rep="images/repeticao.svg"
+    st.image(rep, caption= 'Repetição', width=200)
 
 st.write("###")
 
@@ -50,7 +53,7 @@ st.subheader("2. Programação Orientada a Objetos")
 st.write("**Programação Orientada a Objetos** é um método de desenvolvimento de programas. Este método é baseado no conceito de “**objetos**“. Os objetos podem conter **dados** e **códigos**.")
 
 oop="images/orientacao-a-objetos.svg"
-st.image(oop, caption= 'Programação Orientada a Objetos ', width=200)
+st.image(oop, caption= 'Programação Orientada a Objetos', width=350)
 
 # st.image("images/orientacao-a-objetos.svg")
 
