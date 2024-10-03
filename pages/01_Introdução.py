@@ -49,7 +49,10 @@ st.subheader("2. Programação Orientada a Objetos")
 
 st.write("**Programação Orientada a Objetos** é um método de desenvolvimento de programas. Este método é baseado no conceito de “**objetos**“. Os objetos podem conter **dados** e **códigos**.")
 
-st.image("images/orientacao-a-objetos.svg")
+oop="images/orientacao-a-objetos.svg"
+st.image(oop, caption= 'Programação Orientada a Objetos ', width=200)
+
+# st.image("images/orientacao-a-objetos.svg")
 
 st.write("###")
 
