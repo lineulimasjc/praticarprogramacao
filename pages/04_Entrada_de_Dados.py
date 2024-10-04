@@ -141,7 +141,9 @@ Soma = 10
 
 t2.write("O comando ```getline``` permite a entrada de texto contendo o caractere “espaço em branco“.")
 
-t2.info(":grey_exclamation: O comando ```getline``` pertence a biblioteca ```<string>```.")
+# t2.info(":grey_exclamation: O comando ```getline``` pertence a biblioteca ```<string>```.")
+
+t2.info('O comando ```getline``` pertence a biblioteca ```<string>```.', icon=":material/info:")
 
 t2.write("Sintaxe: ```getline(cin, variável);```")
 
