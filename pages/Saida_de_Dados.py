@@ -1,13 +1,8 @@
 # Saída de Dados
 import streamlit as st
-import pandas as pd
 
-st.set_page_config(
-    page_title="Saída de Dados",
-    page_icon="images/logo.png",
-    layout="centered",
-    initial_sidebar_state="auto",
-)
+
+
 
 st.title("Saída de Dados")
 
@@ -204,14 +199,7 @@ t3.write("Os operadores aritméticos são fundamentais para a realização de c�
 
 
 
-# t3.df = pd.DataFrame({
-#   'Descrição': ['Adição', 'Subtração', 'Multiplicação', 'Divisão', 'Módulo'],
-#   'Operador': ['+', '-', '*', '/', '%'],
-#   'Exemplo': ['3 + 2', '5 - 3', '3 * 3', '10 / 2', '10 % 7'],
-#   'Resultado': ['5', '2', '9', '5', '3']
-# })
 
-# t3.df
 
 t3.markdown("""
 | Descrição     | Operador | Exemplo | Resultado |
@@ -390,21 +378,3 @@ t3.text('''
 
 
 
-# ----- Footer implementation -----
-footer = """
-<style>
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f0f2f6;
-    color: #31333f;;
-    text-align: center;
-}
-</style>
-<div class='footer'>
-  <p>Praticar Programação ©</p>
-</div>
-"""
-st.markdown(footer, unsafe_allow_html=True)
