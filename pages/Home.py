@@ -13,7 +13,7 @@ import streamlit as st
 
 
 
-st.title(':house: Home')
+st.title(':house_with_garden: Home')
 
 st.header("Linguagem C++")
 
