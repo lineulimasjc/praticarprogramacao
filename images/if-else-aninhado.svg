@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 384 464">
+  <defs>
+    <style>.cls-1{fill:#ffe8bf;stroke:#f9cb98;}.cls-1,.cls-13,.cls-6,.cls-7{stroke-miterlimit:10;}.cls-1,.cls-13,.cls-7,.cls-9{stroke-width:0.5px;}.cls-2{font-size:18px;letter-spacing:-0.01em;}.cls-10,.cls-2{fill:#444;font-family:SourceSansPro-Regular, Source Sans Pro;}.cls-3{letter-spacing:-0.03em;}.cls-4,.cls-5{font-size:14px;font-family:OpenSans-Regular, Open Sans;}.cls-4{fill:#ed1c24;}.cls-5{fill:#00a651;}.cls-6{fill:#fff;stroke:#444;stroke-width:0.25px;}.cls-13,.cls-7{fill:none;stroke:#656666;}.cls-8{fill:#656666;}.cls-9{fill:#e0f2fd;stroke:#b7e3f9;stroke-linejoin:round;}.cls-10{font-size:17px;letter-spacing:-0.01em;}.cls-11{letter-spacing:-0.02em;}.cls-12{letter-spacing:-0.01em;}.cls-13{stroke-linecap:square;}</style>
+  </defs>
+  <rect class="cls-1" x="31.78" y="344.01" width="107.54" height="44.33"></rect>
+  <text class="cls-2" transform="translate(50.99 371.02)">Blo<tspan class="cls-3" x="24.39" y="0">c</tspan><tspan x="32.04" y="0">o else</tspan></text>
+  <text class="cls-4" transform="translate(88.42 329.9)">Falso</text>
+  <text class="cls-4" transform="translate(88.42 239.54)">Falso</text>
+  <text class="cls-4" transform="translate(88.42 149.94)">Falso</text>
+  <text class="cls-5" transform="translate(143.6 102.56)">Verdadeiro</text>
+  <circle class="cls-6" cx="85.55" cy="29.95" r="14.43"></circle>
+  <line class="cls-7" x1="85.55" y1="44.38" x2="85.55" y2="72.07"></line>
+  <polygon class="cls-8" points="83.06 71.34 85.55 75.66 88.04 71.34 83.06 71.34"></polygon>
+  <line class="cls-7" x1="85.55" y1="388.34" x2="85.55" y2="416.03"></line>
+  <polygon class="cls-8" points="83.06 415.3 85.55 419.62 88.05 415.3 83.06 415.3"></polygon>
+  <polygon class="cls-9" points="142.57 104.66 85.55 133.32 28.53 104.66 85.55 76 142.57 104.66"></polygon>
+  <text class="cls-10" transform="translate(46.88 109.23)">Condi<tspan class="cls-11" x="40.99" y="0">ç</tspan><tspan class="cls-12" x="48.4" y="0">ão 1</tspan></text>
+  <polygon class="cls-9" points="142.57 194.11 85.55 222.77 28.53 194.11 85.55 165.46 142.57 194.11"></polygon>
+  <text class="cls-10" transform="translate(46.88 198.69)">Condi<tspan class="cls-11" x="40.99" y="0">ç</tspan><tspan class="cls-12" x="48.4" y="0">ão 2</tspan></text>
+  <rect class="cls-1" x="225.33" y="82.5" width="107.54" height="44.33"></rect>
+  <text class="cls-2" transform="translate(251.2 109.5)">Blo<tspan class="cls-3" x="24.39" y="0">c</tspan><tspan x="32.04" y="0">o if</tspan></text>
+  <line class="cls-7" x1="142.57" y1="104.66" x2="221.74" y2="104.66"></line>
+  <polygon class="cls-8" points="221.01 107.15 225.33 104.66 221.01 102.17 221.01 107.15"></polygon>
+  <line class="cls-7" x1="332.87" y1="100.56" x2="351.88" y2="100.56"></line>
+  <polygon class="cls-8" points="351.15 103.05 355.47 100.56 351.15 98.06 351.15 103.05"></polygon>
+  <line class="cls-7" x1="332.87" y1="194.11" x2="351.88" y2="194.11"></line>
+  <polygon class="cls-8" points="351.15 196.61 355.47 194.11 351.15 191.62 351.15 196.61"></polygon>
+  <line class="cls-7" x1="332.87" y1="283.57" x2="351.88" y2="283.57"></line>
+  <polygon class="cls-8" points="351.15 286.06 355.47 283.57 351.15 281.07 351.15 286.06"></polygon>
+  <text class="cls-5" transform="translate(143.6 192.01)">Verdadeiro</text>
+  <rect class="cls-1" x="225.33" y="171.95" width="107.54" height="44.33"></rect>
+  <text class="cls-2" transform="translate(235.25 198.96)">Blo<tspan class="cls-3" x="24.39" y="0">c</tspan><tspan x="32.04" y="0">o else if</tspan></text>
+  <line class="cls-7" x1="142.57" y1="194.11" x2="221.74" y2="194.11"></line>
+  <polygon class="cls-8" points="221.01 196.61 225.33 194.11 221.01 191.62 221.01 196.61"></polygon>
+  <text class="cls-5" transform="translate(143.6 281.46)">Verdadeiro</text>
+  <rect class="cls-1" x="225.33" y="261.4" width="107.54" height="44.33"></rect>
+  <text class="cls-2" transform="translate(235.25 288.41)">Blo<tspan class="cls-3" x="24.39" y="0">c</tspan><tspan x="32.04" y="0">o else if</tspan></text>
+  <line class="cls-7" x1="142.57" y1="283.57" x2="221.74" y2="283.57"></line>
+  <polygon class="cls-8" points="221.01 286.06 225.33 283.57 221.01 281.07 221.01 286.06"></polygon>
+  <line class="cls-13" x1="85.55" y1="133.67" x2="85.55" y2="161.52"></line>
+  <polygon class="cls-8" points="83.06 160.79 85.55 165.11 88.05 160.79 83.06 160.79"></polygon>
+  <polygon class="cls-9" points="142.57 283.57 85.55 312.22 28.53 283.57 85.55 254.91 142.57 283.57"></polygon>
+  <text class="cls-10" transform="translate(46.88 288.14)">Condi<tspan class="cls-11" x="40.99" y="0">ç</tspan><tspan class="cls-12" x="48.4" y="0">ão n</tspan></text>
+  <line class="cls-13" x1="85.55" y1="223.12" x2="85.55" y2="250.97"></line>
+  <polygon class="cls-8" points="83.06 250.24 85.55 254.56 88.05 250.24 83.06 250.24"></polygon>
+  <line class="cls-13" x1="85.55" y1="312.57" x2="85.55" y2="340.43"></line>
+  <polygon class="cls-8" points="83.06 339.7 85.55 344.01 88.05 339.7 83.06 339.7"></polygon>
+  <line class="cls-7" x1="355.47" y1="100.56" x2="355.47" y2="402.17"></line>
+  <line class="cls-13" x1="355.47" y1="402.17" x2="89.14" y2="402.17"></line>
+  <polygon class="cls-8" points="89.87 399.68 85.55 402.17 89.87 404.67 89.87 399.68"></polygon>
+  <circle class="cls-6" cx="85.55" cy="434.05" r="14.43"></circle>
+</svg>
