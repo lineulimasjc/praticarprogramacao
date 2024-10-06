@@ -1,10 +1,7 @@
 # Laço de Repetição
 import streamlit as st
 
-
 st.title("Laço de Repetição")
-
-import streamlit as st
 
 t1, t2, t3, t4 = st.tabs(["Operadores", "```while```", "```do...while```", "```for```"])
 
