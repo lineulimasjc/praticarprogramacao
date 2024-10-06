@@ -762,3 +762,356 @@ t5.markdown(
     f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
     unsafe_allow_html=True,
 )
+
+
+
+t6.subheader("Operadores Lógicos", anchor=False)
+
+t6.write("Existem **3 operadores lógicos** na linguagem C++.")
+
+t6.markdown("""
+|    Nome    | Tradução |        Operador        |
+|:----------:|:--------:|:----------------------:|
+| AND Lógico |     E    |  ```and``` ou ```&&``` |
+|  OR Lógico |    OU    | ```or``` ou ```\|\|``` |
+| NOT Lógico |    NÃO   |  ```not``` ou ```!```  |
+""")
+
+t6.write("Veja a seguir a explicação sobre cada operador lógico e exemplos.")
+
+t6.divider()
+
+t6.subheader("```AND``` Lógico", anchor=False)
+
+t6.write("Esta é a tabela verdade do AND Lógico.")
+
+
+t6.markdown("""
+| **Condição 1** | **Condição 2** | **Resultado** |
+|:--------------:|:--------------:|:-------------:|
+|   Verdadeiro   |   Verdadeiro   |   Verdadeiro  |
+|   Verdadeiro   |      Falso     |     Falso     |
+|      Falso     |   Verdadeiro   |     Falso     |
+|      Falso     |      Falso     |     Falso     |
+""")
+
+
+
+
+t6.subheader("Exemplo 1", anchor=False)
+
+t6.write("Neste exemplo é possível saber se o aluno foi aprovado ou reprovado. Caso a situação do aluno esteja como reprovado, não é possível saber se o aluno reprovou por nota ou frequência.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  double Media = 0;
+  int Frequencia = 0;
+
+  cout << "Informe a Média: ";
+  cin >> Media;
+
+  cout << "Informe a Frequência: ";
+  cin >> Frequencia;
+
+  if (Media >= 6.0 and Frequencia >= 75)
+  {
+    cout << "Aprovado" << endl;
+  }
+  else
+  {
+    cout << "Média e/ou Frequência insuficiente" << endl;
+  }
+}
+'''
+t6.code(code, language="cpp")
+
+t6.write('Saída 1:')
+
+t6.text('''
+Informe a Média: 8
+Informe a Frequência: 90
+Aprovado1
+''')
+
+t6.write('Saída 2:')
+
+t6.text('''
+Informe a Média: 5
+Informe a Frequência: 90
+Média Global e/ou Frequência insuficiente
+''')
+
+
+
+
+t6.subheader("Exemplo 2", anchor=False)
+
+t6.write("Neste exemplo é possível saber se o aluno foi aprovado ou reprovado. Caso a situação do aluno esteja como reprovado, é possível saber o motivo, pois o programa contempla a análise de todas as condições.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  float Media;
+  int Frequencia;
+
+  cout << "Informe a Média: ";
+  cin >> Media;
+
+  cout << "Informe a Frequência: ";
+  cin >> Frequencia;
+
+  if (Media >= 6.0 and Frequencia >= 75)
+  {
+    cout << "Aprovado" << endl;
+  }
+  else if (Media < 6.0 and Frequencia >= 75)
+  {
+    cout << "Média abaixo de 6" << endl;
+  }
+  else if (Media >= 6.0 and Frequencia < 75)
+  {
+    cout << "Frequência abaixo de 75%" << endl;
+  }
+  else
+  {
+    cout << "Média e Frequência insuficiente" << endl;
+  }
+}
+'''
+t6.code(code, language="cpp")
+
+t6.write('Saída 1:')
+
+t6.text('''
+Informe a Média Global: 5
+Informe a Frequência: 90
+Média Global abaixo de 6
+''')
+
+t6.write('Saída 2:')
+
+t6.text('''
+Informe a Média Global: 8
+Informe a Frequência: 50
+Frequência abaixo de 75%
+''')
+
+
+
+t6.divider()
+
+t6.subheader("```OR``` Lógico", anchor=False)
+
+t6.markdown("""
+| **Condição 1** | **Condição 2** | **Resultado** |
+|:--------------:|:--------------:|:-------------:|
+|   Verdadeiro   |   Verdadeiro   |   Verdadeiro  |
+|   Verdadeiro   |      Falso     |   Verdadeiro  |
+|      Falso     |   Verdadeiro   |   Verdadeiro  |
+|      Falso     |      Falso     |     Falso     |
+""")
+
+
+
+t6.subheader("Exemplo", anchor=False)
+
+t6.write("No programa abaixo a entrada pode ser **minúscula** ou **maiúscula**.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  char Opcao;
+
+  cout << "Deseja jogar novamente S/N? -> ";
+  cin >> Opcao;
+
+  if (Opcao == 's' || Opcao == 'S')
+  {
+    cout << "O jogo recomeçará em breve!" << endl;
+  }
+  else
+  {
+    cout << "O jogo será encerrado!" << endl;
+  }
+}
+'''
+t6.code(code, language="cpp")
+
+t6.write('Saída 1:')
+
+t6.text('''
+Deseja jogar novamente S/N? -> s
+O jogo recomeçará em breve!
+''')
+
+t6.write('Saída 2:')
+
+t6.text('''
+Deseja jogar novamente S/N? -> S
+O jogo recomeçará em breve!
+''')
+
+
+
+
+
+
+t6.divider()
+
+t6.subheader("```NOT``` Lógico", anchor=False)
+
+t6.markdown("""
+| **Condição** | **Resultado** |
+|:------------:|:-------------:|
+|  Verdadeiro  |     Falso     |
+|     Falso    |   Verdadeiro  |
+""")
+
+
+
+t6.subheader("Exemplo", anchor=False)
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int status = 0;
+
+    cout << "0 - Desligado\n1 - Ligado\nStatus: ";
+    cin >> status;
+
+    // Se status NÃO for igual a 0 (zero)
+    if (!(status == 0))
+    {
+        cout << "Ligado" << endl;
+    }
+    else
+    {
+        cout << "Desligado" << endl;
+    }
+}
+'''
+t6.code(code, language="cpp")
+
+t6.write('Saída 1:')
+
+t6.text('''
+0 – Desligado
+1 – Ligado
+Status: 1
+Ligado
+''')
+
+t6.write('Saída 2:')
+
+t6.text('''
+0 – Desligado
+1 – Ligado
+Status: 0
+Desligado
+''')
+
+t1.info('Veja abaixo 2 formas diferentes de reescrever o código acima e obter a mesma saída.', icon=":material/info:")
+
+
+t6.subheader("Exemplo 1", anchor=False)
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int status = 0;
+
+    cout << "0 - Desligado\n1 - Ligado\nStatus: ";
+    cin >> status;
+
+    // Se status for diferente de 0 (zero)
+    if (status != 0)
+    {
+        cout << "Ligado" << endl;
+    }
+    else
+    {
+        cout << "Desligado" << endl;
+    }
+}
+'''
+t6.code(code, language="cpp")
+
+t6.write('Saída 1:')
+
+t6.text('''
+0 – Desligado
+1 – Ligado
+Status: 1
+Ligado
+''')
+
+t6.write('Saída 2:')
+
+t6.text('''
+0 – Desligado
+1 – Ligado
+Status: 0
+Desligado
+''')
+
+
+
+t6.subheader("Exemplo 2", anchor=False)
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int status = 0;
+
+    cout << "0 - Desligado\n1 - Ligado\nStatus: ";
+    cin >> status;
+
+    // Se status for igual a 1 (um)
+    if (status == 1)
+    {
+        cout << "Ligado" << endl;
+    }
+    else
+    {
+        cout << "Desligado" << endl;
+    }
+}
+'''
+t6.code(code, language="cpp")
+
+t6.write('Saída 1:')
+
+t6.text('''
+0 – Desligado
+1 – Ligado
+Status: 1
+Ligado
+''')
+
+t6.write('Saída 2:')
+
+t6.text('''
+0 – Desligado
+1 – Ligado
+Status: 0
+Desligado
+''')
