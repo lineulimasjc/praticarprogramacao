@@ -1,5 +1,6 @@
 # Estrutura de Decisão
 import streamlit as st
+import base64
 
 st.title("Estrutura de Decisão")
 
@@ -550,3 +551,214 @@ switch (variável)
 
 cond3="images/switch.svg"
 t5.image(cond3, caption= 'switch', width=350)
+
+
+
+
+
+t5.subheader("Exemplo 1", anchor=False)
+
+t5.write("Exemplo do comando ```switch```.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int idioma = 0;
+
+  cout << "1. Português" << endl;
+  cout << "2. English" << endl;
+  cout << "3. Español" << endl;
+
+  cout << "Escolha: ";
+  cin >> idioma;
+
+  switch (idioma)
+  {
+  case 1:
+    cout << "Bem-vindo!" << endl;
+    break;
+  case 2:
+    cout << "Welcome!" << endl;
+    break;
+  case 3:
+    cout << "Bienvenido!" << endl;
+    break;
+  default:
+    cout << "Welcome!" << endl;
+  }
+}
+'''
+t5.code(code, language="cpp")
+
+t5.write('Saída:')
+
+
+switch2 = open("images/switch2.gif", "rb")
+contents = switch2.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+switch2.close()
+
+t5.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
+    unsafe_allow_html=True,
+)
+
+
+
+
+
+t5.subheader("Exemplo 2", anchor=False)
+
+t5.write("Exemplo do comando ```switch``` sem ```default```.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int idioma = 0;
+
+  cout << "1. Português" << endl;
+  cout << "2. English" << endl;
+  cout << "3. Español" << endl;
+
+  cout << "Escolha: ";
+  cin >> idioma;
+
+  switch (idioma)
+  {
+  case 1:
+    cout << "Bem-vindo!" << endl;
+    break;
+  case 2:
+    cout << "Welcome!" << endl;
+    break;
+  case 3:
+    cout << "Bienvenido!" << endl;
+    break;
+  default:
+    cout << "Welcome!" << endl;
+  }
+}
+'''
+t5.code(code, language="cpp")
+
+t5.write('Saída:')
+
+
+switch3 = open("images/switch3.gif", "rb")
+contents = switch3.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+switch3.close()
+
+t5.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
+    unsafe_allow_html=True,
+)
+
+
+
+
+
+t5.subheader("Exemplo 3", anchor=False)
+
+t5.write("Exemplo do comando ```switch``` sem ```break```.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int idioma = 0;
+
+  cout << "1. Português" << endl;
+  cout << "2. English" << endl;
+  cout << "3. Español" << endl;
+
+  cout << "Escolha: ";
+  cin >> idioma;
+
+  switch (idioma)
+  {
+    case 1:
+      cout << "Bem-vindo!" << endl;
+    case 2:
+      cout << "Welcome!" << endl;
+    case 3:
+      cout << "Bienvenido!" << endl;
+  }
+}
+'''
+t5.code(code, language="cpp")
+
+t5.write('Saída:')
+
+
+switch4 = open("images\switch-sem-break.gif", "rb")
+contents = switch4.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+switch4.close()
+
+t5.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
+    unsafe_allow_html=True,
+)
+
+
+
+
+
+t5.subheader("Exemplo 4", anchor=False)
+
+t5.write("Exemplo do comando ```switch``` usando tipo de dado ```char```.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  char idioma;
+
+  cout << "P. Português" << endl;
+  cout << "E. English" << endl;
+  cout << "S. Español" << endl;
+
+  cout << "Escolha: ";
+  cin >> idioma;
+
+  switch (idioma)
+  {
+  case 'P':
+    cout << "Bem-vindo!" << endl;
+    break;
+  case 'E':
+    cout << "Welcome!" << endl;
+    break;
+  case 'S':
+    cout << "Bienvenido!" << endl;
+    break;
+  default:
+    cout << "Welcome!" << endl;
+  }
+}
+'''
+t5.code(code, language="cpp")
+
+t5.write('Saída:')
+
+
+switch5 = open("images\switch-com-char.gif", "rb")
+contents = switch5.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+switch5.close()
+
+t5.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
+    unsafe_allow_html=True,
+)
