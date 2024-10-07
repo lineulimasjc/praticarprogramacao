@@ -701,7 +701,7 @@ t5.code(code, language="cpp")
 t5.write('Saída:')
 
 
-switch3 = open("images\switch3.gif", "rb")
+switch3 = open("images/switch3.gif", "rb")
 contents = switch3.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 switch3.close()
@@ -755,7 +755,7 @@ t5.code(code, language="cpp")
 t5.write('Saída:')
 
 
-switch4 = open("images\switch-com-char.gif", "rb")
+switch4 = open("images/switch4.gif", "rb")
 contents = switch4.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 switch4.close()
@@ -810,7 +810,7 @@ t5.code(code, language="cpp")
 t5.write('Saída:')
 
 
-switch5 = open("images\switch-case-sensitive.gif", "rb")
+switch5 = open("images/switch5.gif", "rb")
 contents = switch5.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 switch5.close()
