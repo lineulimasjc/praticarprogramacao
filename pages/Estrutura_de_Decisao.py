@@ -521,6 +521,8 @@ Digite um número: 7
 
 
 
+
+
 t5.subheader("```switch```", anchor=False)
 
 t5.write("Com base no valor da variável que o ```switch``` recebe, um ou mais casos são executados.")
@@ -549,7 +551,7 @@ switch (variável)
 ''')
 
 
-cond3="images/switch.svg"
+cond3="images/switch_sintaxe.svg"
 t5.image(cond3, caption= 'switch', width=350)
 
 
@@ -559,6 +561,60 @@ t5.image(cond3, caption= 'switch', width=350)
 t5.subheader("Exemplo 1", anchor=False)
 
 t5.write("Exemplo do comando ```switch```.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int idioma = 0;
+
+  cout << "1. Português" << endl;
+  cout << "2. English" << endl;
+  cout << "3. Español" << endl;
+
+  cout << "Escolha: ";
+  cin >> idioma;
+
+  switch (idioma)
+  {
+  case 1:
+    cout << "Bem-vindo!" << endl;
+    break;
+  case 2:
+    cout << "Welcome!" << endl;
+    break;
+  case 3:
+    cout << "Bienvenido!" << endl;
+    break;
+  default:
+    cout << "Welcome!" << endl;
+  }
+}
+'''
+t5.code(code, language="cpp")
+
+t5.write('Saída:')
+
+
+switch1 = open("images/switch1.gif", "rb")
+contents = switch1.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+switch1.close()
+
+t5.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
+    unsafe_allow_html=True,
+)
+
+
+
+
+
+t5.subheader("Exemplo 2", anchor=False)
+
+t5.write("Exemplo do comando ```switch``` sem ```default```.")
 
 code = '''
 #include <iostream>
@@ -610,60 +666,6 @@ t5.markdown(
 
 
 
-t5.subheader("Exemplo 2", anchor=False)
-
-t5.write("Exemplo do comando ```switch``` sem ```default```.")
-
-code = '''
-#include <iostream>
-using namespace std;
-
-int main()
-{
-  int idioma = 0;
-
-  cout << "1. Português" << endl;
-  cout << "2. English" << endl;
-  cout << "3. Español" << endl;
-
-  cout << "Escolha: ";
-  cin >> idioma;
-
-  switch (idioma)
-  {
-  case 1:
-    cout << "Bem-vindo!" << endl;
-    break;
-  case 2:
-    cout << "Welcome!" << endl;
-    break;
-  case 3:
-    cout << "Bienvenido!" << endl;
-    break;
-  default:
-    cout << "Welcome!" << endl;
-  }
-}
-'''
-t5.code(code, language="cpp")
-
-t5.write('Saída:')
-
-
-switch3 = open("images/switch3.gif", "rb")
-contents = switch3.read()
-data_url = base64.b64encode(contents).decode("utf-8")
-switch3.close()
-
-t5.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
-    unsafe_allow_html=True,
-)
-
-
-
-
-
 t5.subheader("Exemplo 3", anchor=False)
 
 t5.write("Exemplo do comando ```switch``` sem ```break```.")
@@ -699,10 +701,10 @@ t5.code(code, language="cpp")
 t5.write('Saída:')
 
 
-switch4 = open("images\switch-sem-break.gif", "rb")
-contents = switch4.read()
+switch3 = open("images\switch-sem-break.gif", "rb")
+contents = switch3.read()
 data_url = base64.b64encode(contents).decode("utf-8")
-switch4.close()
+switch3.close()
 
 t5.markdown(
     f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
@@ -753,7 +755,62 @@ t5.code(code, language="cpp")
 t5.write('Saída:')
 
 
-switch5 = open("images\switch-com-char.gif", "rb")
+switch4 = open("images\switch-com-char.gif", "rb")
+contents = switch4.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+switch4.close()
+
+t5.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
+    unsafe_allow_html=True,
+)
+
+
+
+t5.subheader("Exemplo 5", anchor=False)
+
+t5.write("Resolvendo o problema da entrada de dados com caracteres maiúsculo ou minúsculo.")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  char idioma;
+
+  cout << "P. Português" << endl;
+  cout << "E. English" << endl;
+  cout << "S. Español" << endl;
+
+  cout << "Escolha: ";
+  cin >> idioma;
+
+  switch (idioma)
+  {
+  case 'P':
+  case 'p':
+    cout << "Bem-vindo!" << endl;
+    break;
+  case 'E':
+  case 'e':
+    cout << "Welcome!" << endl;
+    break;
+  case 'S':
+  case 's':
+    cout << "Bienvenido!" << endl;
+    break;
+  default:
+    cout << "Welcome!" << endl;
+  }
+}
+'''
+t5.code(code, language="cpp")
+
+t5.write('Saída:')
+
+
+switch5 = open("images\switch-case-sensitive.gif", "rb")
 contents = switch5.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 switch5.close()
@@ -762,6 +819,10 @@ t5.markdown(
     f'<img src="data:image/gif;base64,{data_url}" alt="switch">',
     unsafe_allow_html=True,
 )
+
+
+
+
 
 
 
