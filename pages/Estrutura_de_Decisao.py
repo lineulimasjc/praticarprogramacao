@@ -701,7 +701,7 @@ t5.code(code, language="cpp")
 t5.write('Saída:')
 
 
-switch3 = open("images\switch-sem-break.gif", "rb")
+switch3 = open("images\switch3.gif", "rb")
 contents = switch3.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 switch3.close()
