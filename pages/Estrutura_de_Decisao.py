@@ -765,6 +765,7 @@ t5.markdown(
 
 
 
+
 t6.subheader("Operadores Lógicos", anchor=False)
 
 t6.write("Existem **3 operadores lógicos** na linguagem C++.")
