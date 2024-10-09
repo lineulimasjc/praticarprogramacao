@@ -1,4 +1,3 @@
-# Laço de Repetição
 import streamlit as st
 
 st.title("Laço de Repetição")
@@ -133,12 +132,6 @@ t1.text('''
 Contador = 1
 Contador = 1
 ''')
-
-
-# Adicionar o aqui aqui
-
-
-
 
 
 # while tab
@@ -310,7 +303,6 @@ do
 } while (condição);
 ''')
 
-# t2.warning(":warning: Os mesmos exemplos apresentados com o comando ```while``` serão apresentados com o comando ```do...while```. Compare os exemplos para ver as diferenças.")
 
 t2.warning('Os mesmos exemplos apresentados com o comando ```while``` serão apresentados com o comando ```do...while```. Compare os exemplos para ver as diferenças.', icon=":material/warning:")
 
@@ -536,11 +528,3 @@ Valor 2: 6
 Valor 3: 9
 FIM
 ''')
-
-
-
-
-
-
-
-

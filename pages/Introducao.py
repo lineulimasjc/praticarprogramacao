@@ -1,4 +1,3 @@
-# Introdução
 import streamlit as st
 
 
@@ -105,8 +104,3 @@ t3.write("Exemplos:")
 
 t3.markdown("- Code::Blocks")
 t3.markdown("- Visual Studio Code")
-
-
-
-
-

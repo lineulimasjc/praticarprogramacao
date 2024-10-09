@@ -1,4 +1,3 @@
-# Entrada de Dados
 import streamlit as st
 
 
@@ -127,14 +126,8 @@ Soma = 10
 
 
 
-
-
-# t2.title("Entrada de Dados – ```getline```")
-
-
 t2.write("O comando ```getline``` permite a entrada de texto contendo o caractere “espaço em branco“.")
 
-# t2.info(":grey_exclamation: O comando ```getline``` pertence a biblioteca ```<string>```.")
 
 t2.info('O comando ```getline``` pertence a biblioteca ```<string>```.', icon=":material/info:")
 
@@ -172,46 +165,3 @@ t2.text('''
 Nome completo: Pedro Silva
 Bom jogo Pedro Silva!
 ''')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Footer implementation
-# footer = """
-# <style>
-# .footer {
-#     position: fixed;
-#     left: 0;
-#     bottom: 0;
-#     width: 100%;
-#     background-color: #f0f2f6;
-#     color: #31333f;
-#     text-align: center;
-# }
-# </style>
-# <div class='footer'>
-#   <p>Praticar Programação ©</p>
-# </div>
-# """
-# st.markdown(footer, unsafe_allow_html=True)

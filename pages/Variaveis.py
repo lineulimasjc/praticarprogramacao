@@ -1,7 +1,4 @@
-# Variáveis
 import streamlit as st
-
-
 
 st.title("Variáveis")
 
@@ -250,8 +247,6 @@ st.header(":arrow_forward: 3.5 String")
 
 st.write("O tipo de dado string em C++ é utilizado para armazenar sequências de caracteres, ou seja, textos.")
 
-# st.write(":warning: Caracteres são letras do alfabeto, números, sinais de pontuação, e símbolos, como @ ou #.")
-
 st.warning(":warning: Caracteres são letras do alfabeto, números, sinais de pontuação, e símbolos, como @ ou #.")
 
 
@@ -437,18 +432,3 @@ st.write(":x: else")
 
 # A Streamlit Quizz Template
 # https://medium.com/@hugoalmeidamoreira/a-streamlit-quizz-template-505ae87c387f
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

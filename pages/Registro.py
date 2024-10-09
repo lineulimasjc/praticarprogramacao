@@ -1,7 +1,4 @@
-# Registro
 import streamlit as st
-
-
 
 st.title("Registro")
 
@@ -126,10 +123,3 @@ Nome: Maria
 Idade: 28
 Altura = 1.72
 ''')
-
-
-
-
-
-
-

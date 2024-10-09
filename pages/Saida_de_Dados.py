@@ -1,34 +1,10 @@
-# Saída de Dados
 import streamlit as st
-
-
-
 
 st.title("Saída de Dados")
 
 
 t1, t2, t3 = st.tabs(["Comando ```cout```", "Pulando Linha", "Operadores Arirméticos"])
 
-
-
-
-# st.write(":white_medium_square: 2.1 Comando cout")
-# st.write(":white_medium_square: 2.2 Pulando Linha")
-# st.write(":white_medium_square: 2.3 Operadores Arirméticos")
-
-
-
-# t1.header(':arrow_forward: 2.1 Comando `cout`')
-# st.header('Comando `cout`')
-
-# t1.divider()
-
-# st.header('My header')
-# st.subheader('My sub')
-
-# st.write('Comando cout')
-
-# inline code `code`
 
 t1.write('O `cout` é um comando de saída de dados, usado para imprimir mensagens na tela. Veja alguns exemplos a seguir.')
 
@@ -91,17 +67,6 @@ t1.text('''
 
 
 
-
-
-
-# st.write("###")
-
-
-# ----- Pulando Linha -----
-
-# t2.header(':arrow_forward: 2.2 Pulando Linha')
-
-# t2.divider()
 
 t2.write('Existem 2 formas de pular linha na linguagem C++:')
 
@@ -176,27 +141,7 @@ Pulando linha
 
 
 
-
-
-
-
-
-
-
-# t2.write("###")
-
-
-# ----- Operadores Aritméticos -----
-
-# t3.header(":arrow_forward: 2.3 Operadores Aritméticos")
-
-# t3.divider()
-
-
 t3.write("Os operadores aritméticos são fundamentais para a realização de cálculos matemáticos básicos dentro do código. Estes operadores permitem realizar operações como adição, subtração, multiplicação, divisão e obtenção do resto de uma divisão entre variáveis ou valores. Aqui está uma breve explicação dos principais operadores aritméticos em C++:")
-
-
-
 
 
 
@@ -365,16 +310,3 @@ t3.write('Saída:')
 t3.text('''
 2 semana(s) e 1 dia(s).
 ''')
-
-
-
-
-
-
-
-
-
-
-
-
-

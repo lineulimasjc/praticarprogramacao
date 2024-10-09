@@ -1,7 +1,4 @@
-# Vetor
 import streamlit as st
-
-
 
 st.title("O que são vetores?")
 
@@ -433,12 +430,3 @@ Informe valor 3: 3
 Par: 1
 Ímpar: 2
 ''')
-
-
-
-
-
-
-
-
-
