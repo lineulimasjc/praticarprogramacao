@@ -1,4 +1,3 @@
-# Função
 import streamlit as st
 
 st.title("O que são funções?")
@@ -16,21 +15,10 @@ tipo_do_retorno nomeDaFuncao( lista de parâmetros )
 }
 ''')
 
+st.subheader("Funções Sem Retorno e Sem Parâmetro")
 
+st.write("Exemplo:")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+st.write("A função **exibirMensagem não recebe parâmetro** e também **não tem retorno**. Para deixar explícito que a função não tem retorno e nem recebe parâmetros, usa-se a palavra ```void``` (que significa **nada**).")
 
 
