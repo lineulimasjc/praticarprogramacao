@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-pages = {
+pgs = {
     "C++ Estruturado": [
         st.Page("pages/Home.py", title="Home", icon="🏡"), #house_with_garden
         st.Page("pages/Introducao.py", title="Introdução", icon="📝"), #pencil
@@ -31,6 +31,6 @@ pages = {
     # ],
 }
 
-pg = st.navigation(pages)
+pg = st.navigation(pgs)
 
 pg.run()
