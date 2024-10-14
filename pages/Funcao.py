@@ -21,4 +21,27 @@ st.write("Exemplo:")
 
 st.write("A função **exibirMensagem não recebe parâmetro** e também **não tem retorno**. Para deixar explícito que a função não tem retorno e nem recebe parâmetros, usa-se a palavra ```void``` (que significa **nada**).")
 
+st.write("Código:")
 
+code = '''
+#include <iostream>
+using namespace std;
+
+// função exibirMensagem
+void exibirMensagem(void)
+{
+  cout << "Bom estudo!" << endl;
+}
+
+int main()
+{
+  exibirMensagem(); // chamando a função
+}
+'''
+st.code(code, language="cpp")
+
+st.write('Saída:')
+
+st.text('''
+Bom estudo!
+''')

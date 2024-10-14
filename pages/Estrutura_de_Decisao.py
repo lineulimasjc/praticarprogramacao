@@ -895,7 +895,7 @@ t6.write('Saída 1:')
 t6.text('''
 Informe a Média: 8
 Informe a Frequência: 90
-Aprovado1
+Aprovado
 ''')
 
 t6.write('Saída 2:')
