@@ -45,3 +45,52 @@ st.write('Saída:')
 st.text('''
 Bom estudo!
 ''')
+
+
+st.subheader("Funções Sem Retorno e Com Parâmetro(s)")
+
+st.write("Exemplo:")
+
+st.write("Neste outro exemplo, a função ```exibirMensagem``` recebe um parâmetro** (horas do tipo ```int```) e **não tem retorno**. Com base no valor da variável ```Horas```, uma mensagem será impressa na tela.")
+
+st.write("Código:")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+// função exibirMensagem
+void exibirMensagem(int Horas)
+{
+  if (Horas < 12)
+  {
+    cout << "Bom dia!" << endl;
+  }
+  else if (Horas < 18)
+  {
+    cout << "Boa tarde!" << endl;
+  }
+  else
+  {
+    cout << "Boa noite!" << endl;
+  }
+}
+
+int main()
+{
+  int Horario = 0;
+
+  cout << "Digite somente o valor da hora: ";
+  cin >> Horario;
+
+  exibirMensagem(Horario); // chamando a função
+}
+'''
+st.code(code, language="cpp")
+
+st.write('Saída:')
+
+st.text('''
+Digite somente o valor da hora: 11
+Bom dia!
+''')
