@@ -46,6 +46,7 @@ st.text('''
 Bom estudo!
 ''')
 
+st.divider()
 
 st.subheader("Funções Sem Retorno e Com Parâmetro(s)")
 
