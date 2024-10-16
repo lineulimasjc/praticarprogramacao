@@ -95,3 +95,9 @@ st.text('''
 Digite somente o valor da hora: 11
 Bom dia!
 ''')
+
+
+st.divider()
+
+st.subheader("Funções Com Retorno e Com Parâmetro(s)")
+
