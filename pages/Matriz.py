@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("O que são Matrizes?")
+st.title("O que é uma Matriz?")
 
 st.write("**Matriz** é uma estrutura de dados que armazena uma determinada quantidade de elementos do mesmo tipo de dado.")
 
@@ -399,14 +399,3 @@ Informe valor 1,1: 4
 Par: 2
 Ímpar: 2
 ''')
-
-
-
-
-
-
-
-
-
-
-

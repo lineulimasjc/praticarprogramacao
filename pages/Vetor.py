@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("O que são vetores?")
+st.title("O que um vetor?")
 
 st.write("**Vetor** é uma estrutura de dados que armazena uma determinada quantidade de elementos do mesmo tipo.")
 
