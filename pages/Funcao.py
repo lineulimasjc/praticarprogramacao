@@ -101,3 +101,45 @@ st.divider()
 
 st.subheader("Funções Com Retorno e Com Parâmetro(s)")
 
+
+st.write("A função **calculaSoma recebe dois parâmetros** (```Valor1``` e ```Valor2```, ambas do tipo ```double```) e tem **retorno** do tipo ```double```.")
+
+st.write("Código:")
+
+code = '''
+#include <iostream>
+using namespace std;
+
+// função calculaSoma
+double calculaSoma(double Valor1, double Valor2)
+{
+  return Valor1 + Valor2;
+}
+
+int main()
+{
+  double Val1 = 0;
+  double Val2 = 0;
+  double Resultado = 0;
+
+  cout << "Digite valor 1: ";
+  cin >> Val1;
+
+  cout << "Digite valor 2: ";
+  cin >> Val2;
+
+  // dResultado recebe o retorno da chamada da função
+  Resultado = calculaSoma(Val1, Val2);
+
+  cout << "Resultado = " << Resultado << endl;
+}
+'''
+st.code(code, language="cpp")
+
+st.write('Saída:')
+
+st.text('''
+Digite valor 1: 1.2
+Digite valor 2: 2.3
+Resultado = 3.5
+''')
