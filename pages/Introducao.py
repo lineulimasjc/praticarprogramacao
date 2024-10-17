@@ -62,7 +62,7 @@ t1.markdown("- Java")
 
 
 
-t2.title('Linguagem Compilada vs Interpretada')
+t2.title('Linguagem Compilada vs Linguagem Interpretada')
 
 t2.header("1. Linguagem Compilada")
 

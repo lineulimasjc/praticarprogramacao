@@ -141,7 +141,7 @@ Pulando linha
 
 
 
-t3.write("Os operadores aritméticos são fundamentais para a realização de cálculos matemáticos básicos dentro do código. Estes operadores permitem realizar operações como adição, subtração, multiplicação, divisão e obtenção do resto de uma divisão entre variáveis ou valores. Aqui está uma breve explicação dos principais operadores aritméticos em C++:")
+t3.write("Os operadores aritméticos são fundamentais para a realização de cálculos matemáticos básicos dentro do código. Estes operadores permitem realizar operações como **adição, subtração, multiplicação, divisão** e obtenção do **resto** de uma divisão entre variáveis ou valores. Aqui está uma breve explicação dos principais operadores aritméticos em C++:")
 
 
 

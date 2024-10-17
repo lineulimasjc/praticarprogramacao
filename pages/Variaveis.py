@@ -16,7 +16,7 @@ st.write(":white_medium_square: 3.7 Regras de Nomenclatura")
 
 st.write("###")
 
-st.header(":arrow_forward: 3.1 Introdução a Variáveis")
+st.header("3.1 Introdução a Variáveis")
 
 st.subheader("Conceito de Variável")
 
@@ -90,7 +90,7 @@ st.write("A definição de cada tipo de variável e exemplos serão apresentados
 
 st.write("###")
 
-st.header(":arrow_forward: 3.2 Int")
+st.header("3.2 Int")
 
 st.write("O tipo de dado ```int``` é utilizado para armazenar números inteiros, como **-7, 0, 33**. Ou seja, números sem parte decimal. Pode ser usado para armazenar **idade**, **quantidade**, **dia**, **mês**, etc.")
 
@@ -126,7 +126,7 @@ Data: 19/2/2020
 
 st.write("###")
 
-st.header(":arrow_forward: 3.3 Double e float")
+st.header("3.3 Double e float")
 
 st.write("Esses tipos de dados armazenam números com ponto flutuante. O float e o double possuem algumas diferenças.")
 
@@ -169,7 +169,7 @@ PI como double: 3.141592653589793
 
 st.write("###")
 
-st.header(":arrow_forward: 3.4 Char")
+st.header("3.4 Char")
 
 
 
@@ -243,7 +243,7 @@ Nome: Maria
 
 st.write("###")
 
-st.header(":arrow_forward: 3.5 String")
+st.header("3.5 String")
 
 st.write("O tipo de dado string em C++ é utilizado para armazenar sequências de caracteres, ou seja, textos.")
 
@@ -297,7 +297,7 @@ Resultado = 5
 
 st.write("###")
 
-st.header(":arrow_forward: 3.6 Bool")
+st.header("3.6 Bool")
 
 
 st.write("Um tipo de dado ```bool``` representa valores booleanos, ou seja, verdadeiro (```true```) ou falso (```false```), utilizado principalmente em operações lógicas e de controle de fluxo.")
@@ -341,7 +341,7 @@ y = 0
 
 st.write("###")
 
-st.header(":arrow_forward: 3.7 Regras de Nomenclatura")
+st.header("3.7 Regras de Nomenclatura")
 
 
 
@@ -428,7 +428,7 @@ st.write(":x: else")
 
 
 
-# st.header(":arrow_forward: 3.8 Praticar")
+# st.header("3.8 Praticar")
 
 # A Streamlit Quizz Template
 # https://medium.com/@hugoalmeidamoreira/a-streamlit-quizz-template-505ae87c387f
