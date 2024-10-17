@@ -522,7 +522,7 @@ Digite um número: 7
 
 
 
-t5.subheader("```switch```", anchor=False)
+t5.subheader("Comando ```switch```", anchor=False)
 
 t5.write("Com base no valor da variável que o ```switch``` recebe, um ou mais casos são executados.")
 

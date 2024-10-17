@@ -296,7 +296,7 @@ t3.write(":small_blue_diamond: É importante lembrar que no ```do…while```, no
 
 t3.write("Sintaxe")
 
-t2.text('''
+t3.text('''
 do
 {
   Instrução ou bloco de instruções;
@@ -304,7 +304,8 @@ do
 ''')
 
 
-t2.warning('Os mesmos exemplos apresentados com o comando ```while``` serão apresentados com o comando ```do...while```. Compare os exemplos para ver as diferenças.', icon=":material/warning:")
+
+t3.warning('Os mesmos exemplos apresentados com o comando ```while``` serão apresentados com o comando ```do...while```. Compare os exemplos para ver as diferenças.', icon=":material/warning:")
 
 
 
