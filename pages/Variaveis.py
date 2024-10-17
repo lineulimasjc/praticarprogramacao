@@ -33,7 +33,7 @@ st.write(":white_medium_square: ```string```")
 st.write(":white_medium_square: ```char```")
 st.write(":white_medium_square: ```bool```")
 
-st.write("Declaração de Variável")
+st.subheader("Declaração de Variável")
 
 st.write("Para declarar uma variável, primeiro devemos definir o tipo e, logo em seguida, dar um nome a ela.")
 
@@ -51,7 +51,7 @@ string Nome;
 st.code(code, language="cpp")
 
 
-st.write("Atribuição de Valores")
+st.subheader("Atribuição de Valores")
 
 code = '''
 int Idade = 19;
@@ -344,10 +344,7 @@ st.write("###")
 st.header("3.7 Regras de Nomenclatura")
 
 
-
-st.subheader("Regras de Nomenclatura")
-
-st.write("Regras para nomear as variáveis")
+st.write("Regras para nomear as variáveis.")
 
 st.divider()
 

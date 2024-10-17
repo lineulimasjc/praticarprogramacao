@@ -6,9 +6,9 @@ st.title("Entrada de Dados")
 t1, t2 = st.tabs(["```cin```", "```getline```"])
 
 
-t1.write("O comando cin controla a entrada de dados, permitindo ao usuário da aplicação entrar com dados via teclado.")
+t1.write("O comando ```cin``` controla a entrada de dados, permitindo ao usuário da aplicação entrar com dados via teclado.")
 
-t1.write("A letra “c” de cin significa caractere e “in” significa input *(entrada em português)*.")
+t1.write("A letra \"c\" de ```cin``` significa caractere e “in” significa input *(entrada em português)*.")
 
 t1.write("Sintaxe: ```cin >> variável;```")
 
