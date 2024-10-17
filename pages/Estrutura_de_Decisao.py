@@ -1084,7 +1084,7 @@ Status: 0
 Desligado
 ''')
 
-t1.info('Veja abaixo 2 formas diferentes de reescrever o código acima e obter a mesma saída.', icon=":material/info:")
+t6.info('Veja abaixo 2 formas diferentes de reescrever o código acima e obter a mesma saída.', icon=":material/info:")
 
 
 t6.subheader("Exemplo 1", anchor=False)
