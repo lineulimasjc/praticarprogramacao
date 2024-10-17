@@ -1097,7 +1097,7 @@ int main()
 {
     int status = 0;
 
-    cout << "0 - Desligado\n1 - Ligado\nStatus: ";
+    cout << "0 - Desligado\\n1 - Ligado\\nStatus: ";
     cin >> status;
 
     // Se status for diferente de 0 (zero)
