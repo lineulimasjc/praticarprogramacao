@@ -844,7 +844,7 @@ t6.divider()
 
 t6.subheader("```AND``` Lógico", anchor=False)
 
-t6.write("Esta é a tabela verdade do AND Lógico.")
+t6.write("Esta é a tabela verdade do ```AND``` Lógico.")
 
 
 t6.markdown("""
@@ -1050,7 +1050,7 @@ int main()
 {
     int status = 0;
 
-    cout << "0 - Desligado\n1 - Ligado\nStatus: ";
+    cout << "0 - Desligado\\n1 - Ligado\\nStatus: ";
     cin >> status;
 
     // Se status NÃO for igual a 0 (zero)
