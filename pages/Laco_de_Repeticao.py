@@ -294,6 +294,8 @@ t3.write(":small_blue_diamond: No ```do…while```, o laço é executado pelo me
 
 t3.write(":small_blue_diamond: É importante lembrar que no ```do…while```, no final da linha do while, é obrigatório o uso do ( ```;``` ) **ponto e vírgula**.")
 
+t3.write("###")
+
 t3.write("Sintaxe")
 
 t3.text('''
@@ -303,11 +305,11 @@ do
 } while (condição);
 ''')
 
-
+t3.write("###")
 
 t3.warning('Os mesmos exemplos apresentados com o comando ```while``` serão apresentados com o comando ```do...while```. Compare os exemplos para ver as diferenças.', icon=":material/warning:")
 
-
+t3.write("###")
 
 t3.subheader("Exemplo 1", anchor=False)
 

@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("O que são funções?")
+st.title("O que é uma função?")
 
 st.write("Uma **função** é um **bloco de código** que **executa uma determinada operação**. O objetivo da função é **dividir tarefas complexas em tarefas menores**.")
 
@@ -15,7 +15,7 @@ tipo_do_retorno nomeDaFuncao( lista de parâmetros )
 }
 ''')
 
-st.subheader("Funções Sem Retorno e Sem Parâmetro")
+st.subheader("Função Sem Retorno e Sem Parâmetro")
 
 st.write("Exemplo:")
 
@@ -48,7 +48,7 @@ Bom estudo!
 
 st.divider()
 
-st.subheader("Funções Sem Retorno e Com Parâmetro(s)")
+st.subheader("Função Sem Retorno e Com Parâmetro(s)")
 
 st.write("Exemplo:")
 
@@ -99,7 +99,7 @@ Bom dia!
 
 st.divider()
 
-st.subheader("Funções Com Retorno e Com Parâmetro(s)")
+st.subheader("Função Com Retorno e Com Parâmetro(s)")
 
 st.write("A função **calculaSoma recebe dois parâmetros** (```Valor1``` e ```Valor2```, ambas do tipo ```double```) e tem **retorno** do tipo ```double```.")
 
