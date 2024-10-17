@@ -101,7 +101,6 @@ st.divider()
 
 st.subheader("Funções Com Retorno e Com Parâmetro(s)")
 
-
 st.write("A função **calculaSoma recebe dois parâmetros** (```Valor1``` e ```Valor2```, ambas do tipo ```double```) e tem **retorno** do tipo ```double```.")
 
 st.write("Código:")
