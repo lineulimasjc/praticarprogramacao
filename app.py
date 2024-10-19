@@ -9,7 +9,7 @@ st.set_page_config(
 
 pgs = {
     "C++ Estruturado": [
-        st.Page("pages/Home.py", title="Home", icon="🏡"), #house_with_garden
+        st.Page("pages/home.py", title="Home", icon="🏡"), #house_with_garden
         st.Page("pages/Introducao.py", title="Introdução", icon="📝"), #pencil
         st.Page("pages/Saida_de_Dados.py", title="Saída de Dados", icon="📊"), #bar_chart
         st.Page("pages/Variaveis.py", title="Variáveis", icon="🗄️"), #file_cabinet
