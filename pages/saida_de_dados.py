@@ -68,7 +68,6 @@ st.write('🔹 Exemplo 3:')
 code = '''
 #include <iostream>
 #include <locale.h>
-#include <cstdlib>
 using namespace std;
 
 int main()
