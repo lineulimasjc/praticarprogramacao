@@ -12,6 +12,11 @@ pgs = {
         st.Page("pages/home.py", title="Home", icon="🏡"), #house_with_garden
         st.Page("pages/introducao.py", title="Introdução", icon="📝"), #pencil
         st.Page("pages/saida_de_dados.py", title="Saída de Dados", icon="📊"), #bar_chart
+
+        st.Page("pages/pulando_linha.py", title="Pulando Linha", icon="↩️"), #bar_chart
+        st.Page("pages/operadores_aritmeticos.py", title="Operadores Aritméticos", icon="✖️"), #bar_chart
+
+
         st.Page("pages/variaveis.py", title="Variáveis", icon="🗄️"), #file_cabinet
         st.Page("pages/entrada_de_dados.py", title="Entrada de Dados", icon="⌨️"), #keyboard
         st.Page("pages/estrutura_de_decisao.py", title="Estrutura de Decisão", icon="❓"), #question
