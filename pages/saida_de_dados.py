@@ -56,7 +56,7 @@ Minha idade é 25 anos.
 st.code(code, language="cpp")
 
 
-
+st.divider()
 
 
 st.subheader('3️⃣ Desenvolvendo com Code::Blocks no Windows')
