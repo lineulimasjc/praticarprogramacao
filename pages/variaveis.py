@@ -386,9 +386,11 @@ st.header("4️⃣ Regras de Nomenclatura", anchor=False)
 
 st.write("Regras para nomear as variáveis.")
 
+
 st.divider()
 
-st.subheader("Regra 1")
+
+st.subheader("Regra 1", anchor=False)
 
 st.write("Primeiro caractere DEVE ser uma letra ou o caractere “_” sublinhado.")
 
@@ -397,9 +399,11 @@ st.write("Exemplos:")
 st.write(":white_check_mark: **V**alor")
 st.write(":white_check_mark: _valor")
 
+
 st.divider()
 
-st.subheader("Regra 2")
+
+st.subheader("Regra 2", anchor=False)
 
 st.write("Pode conter letras **maiúsculas** ou **minúsculas**.")
 
@@ -408,9 +412,11 @@ st.write("Exemplos:")
 st.write(":white_check_mark: QtdaProduto")
 st.write(":white_check_mark: NomeCliente")
 
+
 st.divider()
 
-st.subheader("Regra 3")
+
+st.subheader("Regra 3", anchor=False)
 
 st.write("Pode conter numerais de 0 a 9, mas o primeiro caractere não pode ser um numeral.")
 
@@ -419,9 +425,11 @@ st.write("Exemplos:")
 st.write(":white_check_mark: Num1")
 st.write(":white_check_mark: Num2")
 
+
 st.divider()
 
-st.subheader("Regra 4")
+
+st.subheader("Regra 4", anchor=False)
 
 st.write("Pode conter o caractere “_” **sublinhado**.")
 
@@ -430,9 +438,11 @@ st.write("Exemplos:")
 st.write(":white_check_mark: Num_1")
 st.write(":white_check_mark: Num_2")
 
+
 st.divider()
 
-st.subheader("Regra 5")
+
+st.subheader("Regra 5", anchor=False)
 
 st.write("**NÃO** pode conter **acentuação**.")
 
@@ -441,9 +451,11 @@ st.write("Exemplos:")
 st.write(":x: Preço")
 st.write(":x: Número")
 
+
 st.divider()
 
-st.subheader("Regra 6")
+
+st.subheader("Regra 6", anchor=False)
 
 st.write("**NÃO** pode conter **espaço em branco**.")
 
@@ -452,9 +464,11 @@ st.write("Exemplos:")
 st.write(":x: Nome do Produto")
 st.write(":x: Nota do Aluno")
 
+
 st.divider()
 
-st.subheader("Regra 7")
+
+st.subheader("Regra 7", anchor=False)
 
 st.write("**NÃO** pode conter o mesmo nome de uma **palavra-chave**.")
 
