@@ -54,3 +54,33 @@ code = '''
 Minha idade é 25 anos.
 '''
 st.code(code, language="cpp")
+
+
+
+
+
+st.subheader('3️⃣ Desenvolvendo com Code::Blocks no Windows')
+
+st.write('Para quem utiliza o **Code::Blocks**, o código abaixo já inclui a biblioteca necessária para exibir caracteres acentuados corretamente.')
+
+st.write('🔹 Exemplo 3:')
+
+code = '''
+#include <iostream>
+#include <locale.h>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+
+
+
+    setlocale(LC_ALL,"");
+    system("color F1");
+
+
+
+}
+'''
+st.code(code, language="cpp")
