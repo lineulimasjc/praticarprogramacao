@@ -1,103 +1,154 @@
 import streamlit as st
 
-st.title("Variáveis")
+st.title("📌 Variáveis", anchor=False)
 
 
-st.write(":white_medium_square: 3.1 Introdução a Variáveis")
-st.write(":white_medium_square: 3.2 Int")
-st.write(":white_medium_square: 3.3 Double e float")
-st.write(":white_medium_square: 3.4 Char")
-st.write(":white_medium_square: 3.5 String")
-st.write(":white_medium_square: 3.6 Bool")
-st.write(":white_medium_square: 3.7 Regras de Nomenclatura")
-# st.write(":white_medium_square: 3.8 Praticar")
+st.header("1️⃣ Principais Tipos de Variáveis", anchor=False)
 
 
-
-st.write("###")
-
-st.header("3.1 Introdução a Variáveis")
-
-st.subheader("Conceito de Variável")
-
-st.write("Uma **variável** é uma posição denominada da memória onde um valor pode ser armazenado para ser utilizado pelo programa.")
+st.divider()
 
 
-
-st.write("As variáveis podem ser do tipo:")
-
-st.write(":white_medium_square: ```int```")
-st.write(":white_medium_square: ```double```")
-st.write(":white_medium_square: ```float```")
-st.write(":white_medium_square: ```string```")
-st.write(":white_medium_square: ```char```")
-st.write(":white_medium_square: ```bool```")
-
-st.subheader("Declaração de Variável")
-
-st.write("Para declarar uma variável, primeiro devemos definir o tipo e, logo em seguida, dar um nome a ela.")
-
-st.write("Exemplo:")
-
-code = '''
-int Idade;
-
-double Salario;
-
-float Preco;
-
-string Nome;
-'''
-st.code(code, language="cpp")
-
-
-st.subheader("Atribuição de Valores")
-
-code = '''
-int Idade = 19;
-
-double Salario = 1280;
-
-float Preco = 5.99;
-
-string Nome = "Maria";
-'''
-st.code(code, language="cpp")
-
-st.write("É boa prática inicializar as variáveis numéricas igual a 0 (zero).")
-
-
-code = '''
-int Idade = 0;
-
-double Salario = 0;
-
-float Preco = 0;
-
-string Nome;
-'''
-st.code(code, language="cpp")
-
-
-st.write("As variáveis do tipo texto não precisam ser inicializadas.")
-
-st.write("A definição de cada tipo de variável e exemplos serão apresentados a seguir.")
-
-
-
-
+st.write('Em C++, **variáveis** armazenam valores e possuem **tipos específicos**. Aqui estão os mais comuns:', anchor=False)
 
 
 st.write("###")
 
-st.header("3.2 Int")
 
-st.write("O tipo de dado ```int``` é utilizado para armazenar números inteiros, como **-7, 0, 33**. Ou seja, números sem parte decimal. Pode ser usado para armazenar **idade**, **quantidade**, **dia**, **mês**, etc.")
+st.write('🔹 ```int``` (Inteiro) – Armazena números inteiros (positivos ou negativos).', anchor=False)
+
+code = '''
+int idade = 25;
+'''
+st.code(code, language="cpp")
 
 
-st.subheader('Exemplo')
+st.write("###")
 
-st.write("Código")
+
+st.write('🔹 ```float``` **(Ponto Flutuante Simples)** – Armazena números decimais com **precisão menor** (aprox. 6-7 dígitos).', anchor=False)
+
+code = '''
+float preco = 19.99;
+'''
+st.code(code, language="cpp")
+
+
+st.write("###")
+
+
+st.write('🔹 ```double``` **(Ponto Flutuante Duplo)** – Semelhante ao ```float```, mas com **maior precisão** (aprox. 15-16 dígitos).', anchor=False)
+
+code = '''
+double pi = 3.1415926535;
+'''
+st.code(code, language="cpp")
+
+
+st.write("###")
+
+
+st.write('🔹 ```char``` **(Caractere Único)** – Armazena um único caractere, sempre entre **aspas simples** (' ').', anchor=False)
+
+code = '''
+char letra = 'A';
+'''
+st.code(code, language="cpp")
+
+
+st.write("###")
+
+
+st.write('🔹 ```string``` **(Texto)** – Armazena uma sequência de caracteres (palavras/frases), usada com a biblioteca ```<string>```.', anchor=False)
+
+code = '''
+#include <string>
+
+string nome = "Alice";
+'''
+st.code(code, language="cpp")
+
+
+st.write("###")
+
+
+st.write('🔹 ```bool``` **(Booleano)** – Armazena apenas ```true``` (1) ou ```false``` (0).', anchor=False)
+
+code = '''
+bool ativo = true;
+'''
+st.code(code, language="cpp")
+
+
+st.write("###")
+
+
+st.write('📌 Resumo: Cada tipo de variável é usado conforme a necessidade do programa. 🚀')
+
+
+st.write("###")
+
+
+st.header("2️⃣ Exemplo com os diferentes tipos de variáveis", anchor=False)
+
+
+st.write('🔹 Aqui está um exemplo prático que demonstra o uso de diferentes tipos de variáveis em C++:')
+
+
+code = '''
+#include <iostream>
+#include <string> // Necessário para usar strings
+using namespace std;
+
+int main() {
+    int idade = 25;             // Inteiro
+    float altura = 1.75;        // Ponto flutuante (menos precisão)
+    double pi = 3.1415926535;   // Ponto flutuante (mais precisão)
+    char inicial = 'A';         // Caractere único
+    string nome = "Carlos";     // Texto
+    bool aprovado = true;       // Booleano (true ou false)
+
+    // Exibindo os valores armazenados
+    cout << "Nome: " << nome << endl;
+    cout << "Idade: " << idade << endl;
+    cout << "Altura: " << altura << "m" << endl;
+    cout << "Valor de PI: " << pi << endl;
+    cout << "Inicial do nome: " << inicial << endl;
+    cout << "Aprovado? " << (aprovado ? "Sim" : "Não") << endl;
+}
+'''
+st.code(code, language="cpp")
+
+st.write('Saída:')
+
+code = '''
+Nome: Carlos  
+Idade: 25  
+Altura: 1.75m  
+Valor de PI: 3.1415926535  
+Inicial do nome: A  
+Aprovado? Sim  
+'''
+st.code(code, language="cpp")
+
+
+st.write("###")
+
+
+st.header("3️⃣ Mais exemplos de variáveis", anchor=False)
+
+
+st.write("###")
+
+
+st.header("👉 Int", anchor=False)
+
+# st.write("O tipo de dado ```int``` é utilizado para armazenar números inteiros, como **-7, 0, 33**. Ou seja, números sem parte decimal. Pode ser usado para armazenar **idade**, **quantidade**, **dia**, **mês**, etc.")
+
+
+st.subheader('Exemplo:')
+
+#st.write("Código")
 
 code = '''
 #include <iostream>
@@ -117,24 +168,26 @@ st.code(code, language="cpp")
 st.write('Saída:')
 
 
-st.text('''
+code = '''
 Data: 19/2/2020
-''')
+'''
+st.code(code, language="cpp")
+
 
 
 
 
 st.write("###")
 
-st.header("3.3 Double e float")
+st.header("👉 Double e float", anchor=False)
 
-st.write("Esses tipos de dados armazenam números com ponto flutuante. O float e o double possuem algumas diferenças.")
+#st.write("Esses tipos de dados armazenam números com ponto flutuante. O float e o double possuem algumas diferenças.")
 
-st.write("```float``` – usa 4 bytes para armazenar dados")
-st.write("```double``` – usa 8 bytes para armazenar dados")
+#st.write("```float``` – usa 4 bytes para armazenar dados")
+#st.write("```double``` – usa 8 bytes para armazenar dados")
 
 
-st.subheader('Exemplo')
+st.subheader('Exemplo:', anchor=False)
 
 
 code = '''
@@ -158,10 +211,13 @@ st.code(code, language="cpp")
 st.write('Saída:')
 
 
-st.text('''
+code = '''
 PI como float: 3.141593
 PI como double: 3.141592653589793
-''')
+'''
+st.code(code, language="cpp")
+
+
 
 
 
@@ -169,26 +225,26 @@ PI como double: 3.141592653589793
 
 st.write("###")
 
-st.header("3.4 Char")
+st.header("👉 Char", anchor=False)
 
 
 
-st.write("Um **caractere** pode ser qualquer número, letra ou símbolo.")
+#st.write("Um **caractere** pode ser qualquer número, letra ou símbolo.")
 
-st.write("Esse tipo de dado pode armazenar um caractere ou um conjunto de caracteres (também chamado de string de caracteres).")
+#st.write("Esse tipo de dado pode armazenar um caractere ou um conjunto de caracteres (também chamado de string de caracteres).")
 
-st.write("Um caractere é qualquer letra minúscula ou maiúscula (A, a, B, b, etc), número (1, 2, 3, etc) ou símbolo (+, *, @, etc).")
+#st.write("Um caractere é qualquer letra minúscula ou maiúscula (A, a, B, b, etc), número (1, 2, 3, etc) ou símbolo (+, *, @, etc).")
 
-st.write("```char``` – armazena um caractere.")
+#st.write("```char``` – armazena um caractere.")
 
-st.write("```char[x]``` – armazena x caracteres, onde x pode ser qualquer valor numérico.")
+#st.write("```char[x]``` – armazena x caracteres, onde x pode ser qualquer valor numérico.")
 
-st.write("Veja exemplos a seguir.")
+#st.write("Veja exemplos a seguir.")
 
 
-st.subheader('Exemplo 1')
+st.subheader('Exemplo:', anchor=False)
 
-st.write("A variável cResposta armazena o caractere S e, em seguida, o dado é impresso na tela. Neste caso o dado deve estar entre aspas simples ( ‘ ‘).")
+#st.write("A variável cResposta armazena o caractere S e, em seguida, o dado é impresso na tela. Neste caso o dado deve estar entre aspas simples ( ‘ ‘).")
 
 code = '''
 #include <iostream>
@@ -206,35 +262,13 @@ st.code(code, language="cpp")
 st.write('Saída:')
 
 
-st.text('''
-Este é o caractere S.
-''')
-
-
-
-st.subheader('Exemplo 2')
-
-st.write("A variável cNome[8] (limitado a 8 caracteres) armazena o conjunto de caracteres Maria e, em seguida, o dado é impresso na tela. Neste caso o dado deve estar entre aspas duplas ( ” “).")
-
 code = '''
-#include <iostream>
-using namespace std;
-
-int main()
-{
-  char cNome[8] = "Maria";
-
-  cout << "Nome: " << cNome << endl;
-}
+Este é o caractere S.
 '''
 st.code(code, language="cpp")
 
-st.write('Saída:')
 
 
-st.text('''
-Nome: Maria
-''')
 
 
 
@@ -243,19 +277,19 @@ Nome: Maria
 
 st.write("###")
 
-st.header("3.5 String")
+st.header("👉 String", anchor=False)
 
-st.write("O tipo de dado string em C++ é utilizado para armazenar sequências de caracteres, ou seja, textos.")
+#st.write("O tipo de dado string em C++ é utilizado para armazenar sequências de caracteres, ou seja, textos.")
 
-st.warning(":warning: Caracteres são letras do alfabeto, números, sinais de pontuação, e símbolos, como @ ou #.")
+#st.warning(":warning: Caracteres são letras do alfabeto, números, sinais de pontuação, e símbolos, como @ ou #.")
 
 
 
-st.subheader('Exemplo')
+st.subheader('Exemplo:', anchor=False)
 
-st.write("A variável sTexto armazena o conjunto de caracteres e, em seguida, o texto é impresso na tela. Neste caso o texto deve estar entre aspas duplas ( ” “).")
+#st.write("A variável sTexto armazena o conjunto de caracteres e, em seguida, o texto é impresso na tela. Neste caso o texto deve estar entre aspas duplas ( ” “).")
 
-st.write('Código:')
+#st.write('Código:')
 
 code = '''
 #include <iostream>
@@ -279,7 +313,7 @@ st.code(code, language="cpp")
 
 st.write('Saída:')
 
-st.text('''
+code = '''
 Resultado = 12
 
 Resultado = 8
@@ -287,7 +321,10 @@ Resultado = 8
 Resultado = 20
 
 Resultado = 5
-''')
+'''
+st.code(code, language="cpp")
+
+
 
 
 
@@ -297,17 +334,17 @@ Resultado = 5
 
 st.write("###")
 
-st.header("3.6 Bool")
+st.header("👉 Bool", anchor=False)
 
 
-st.write("Um tipo de dado ```bool``` representa valores booleanos, ou seja, verdadeiro (```true```) ou falso (```false```), utilizado principalmente em operações lógicas e de controle de fluxo.")
+#st.write("Um tipo de dado ```bool``` representa valores booleanos, ou seja, verdadeiro (```true```) ou falso (```false```), utilizado principalmente em operações lógicas e de controle de fluxo.")
 
-st.write("O valor ```true``` é representado pelo número ```1``` e ```false``` pelo número ```0```.")
+#st.write("O valor ```true``` é representado pelo número ```1``` e ```false``` pelo número ```0```.")
 
 
-st.subheader('Exemplo')
+st.subheader('Exemplo:', anchor=False)
 
-st.write('Código:')
+#st.write('Código:')
 
 code = '''
 #include <iostream>
@@ -328,10 +365,13 @@ st.code(code, language="cpp")
 
 st.write('Saída:')
 
-st.text('''
+code = '''
 x = 1
 y = 0
-''')
+'''
+st.code(code, language="cpp")
+
+
 
 
 
@@ -341,7 +381,7 @@ y = 0
 
 st.write("###")
 
-st.header("3.7 Regras de Nomenclatura")
+st.header("4️⃣ Regras de Nomenclatura", anchor=False)
 
 
 st.write("Regras para nomear as variáveis.")
