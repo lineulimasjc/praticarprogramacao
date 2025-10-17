@@ -15,7 +15,7 @@ st.write('Em C++, **variáveis** armazenam valores e possuem **tipos específico
 st.write("###")
 
 
-st.write('🔹 ```int``` (Inteiro) – Armazena números inteiros (positivos ou negativos).', anchor=False)
+st.write('🔹 ```int``` (Inteiro) – Armazena números inteiros (positivos ou negativos).')
 
 code = '''
 int idade = 25;
