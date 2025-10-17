@@ -26,7 +26,7 @@ st.code(code, language="cpp")
 st.write("###")
 
 
-st.write('🔹 ```float``` **(Ponto Flutuante Simples)** – Armazena números decimais com **precisão menor** (aprox. 6-7 dígitos).', anchor=False)
+st.write('🔹 ```float``` **(Ponto Flutuante Simples)** – Armazena números decimais com **precisão menor** (aprox. 6-7 dígitos).')
 
 code = '''
 float preco = 19.99;
@@ -37,7 +37,7 @@ st.code(code, language="cpp")
 st.write("###")
 
 
-st.write('🔹 ```double``` **(Ponto Flutuante Duplo)** – Semelhante ao ```float```, mas com **maior precisão** (aprox. 15-16 dígitos).', anchor=False)
+st.write('🔹 ```double``` **(Ponto Flutuante Duplo)** – Semelhante ao ```float```, mas com **maior precisão** (aprox. 15-16 dígitos).')
 
 code = '''
 double pi = 3.1415926535;
@@ -48,7 +48,7 @@ st.code(code, language="cpp")
 st.write("###")
 
 
-st.write('🔹 ```char``` **(Caractere Único)** – Armazena um único caractere, sempre entre **aspas simples** (' ').', anchor=False)
+st.write('🔹 ```char``` **(Caractere Único)** – Armazena um único caractere, sempre entre **aspas simples** (' ').')
 
 code = '''
 char letra = 'A';
@@ -59,7 +59,7 @@ st.code(code, language="cpp")
 st.write("###")
 
 
-st.write('🔹 ```string``` **(Texto)** – Armazena uma sequência de caracteres (palavras/frases), usada com a biblioteca ```<string>```.', anchor=False)
+st.write('🔹 ```string``` **(Texto)** – Armazena uma sequência de caracteres (palavras/frases), usada com a biblioteca ```<string>```.')
 
 code = '''
 #include <string>
@@ -72,7 +72,7 @@ st.code(code, language="cpp")
 st.write("###")
 
 
-st.write('🔹 ```bool``` **(Booleano)** – Armazena apenas ```true``` (1) ou ```false``` (0).', anchor=False)
+st.write('🔹 ```bool``` **(Booleano)** – Armazena apenas ```true``` (1) ou ```false``` (0).')
 
 code = '''
 bool ativo = true;
