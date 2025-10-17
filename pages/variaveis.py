@@ -9,7 +9,7 @@ st.header("1️⃣ Principais Tipos de Variáveis", anchor=False)
 st.divider()
 
 
-st.write('Em C++, **variáveis** armazenam valores e possuem **tipos específicos**. Aqui estão os mais comuns:', anchor=False)
+st.write('Em C++, **variáveis** armazenam valores e possuem **tipos específicos**. Aqui estão os mais comuns:')
 
 
 st.write("###")
