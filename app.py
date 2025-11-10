@@ -34,6 +34,7 @@ pgs = {
         st.Page("pages/obi/entrada.py", title="Entrada de Dados", icon="⌨️"),
         st.Page("pages/obi/string.py", title="Extraindo Dados de Strings", icon="🔤"),
         st.Page("pages/obi/array_dinamico.py", title="Arrays Dinâmicos", icon="📶"),
+         st.Page("pages/obi/quiz.py", title="Quiz", icon="📶"),
     #      st.Page("pages/example_two.py", title="Try it out"),
     ],
 }
