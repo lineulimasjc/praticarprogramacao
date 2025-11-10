@@ -151,9 +151,7 @@ Resultado = 3.5
 # Adiciona um link para o quiz
 
 
-st.markdown("[Abra o quiz online clicando aqui](https://praticarprogramacao.streamlit.app/quiz)")
-
-st.markdown("[Abra o quiz online clicando aqui](https://github.com/lineulimasjc/praticarprogramacao/blob/main/pages/quiz.py)")
+#st.markdown("[Abra o quiz online clicando aqui](https://praticarprogramacao.streamlit.app/quiz)")
 
 #st.markdown("[Abra o quiz online clicando aqui](http://localhost:8502/quiz)")
 
